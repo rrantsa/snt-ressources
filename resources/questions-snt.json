@@ -1,0 +1,10 @@
+{
+  "description": "Banque de questions initiale de La Fabrique SNT. Les réponses correctes sont indexées à partir de zéro.",
+  "levels": {
+    "6ème": [{"question":"À quoi sert principalement un navigateur web ?","answers":["À afficher et consulter des pages web","À réparer l’ordinateur","À fabriquer une connexion Wi-Fi","À écrire du code automatiquement"],"correctIndex":0}],
+    "5ème": [{"question":"À quoi sert une adresse IP ?","answers":["À identifier un appareil sur un réseau","À mesurer la vitesse du processeur","À protéger l’écran","À compresser une photo"],"correctIndex":0}],
+    "4ème": [{"question":"Quel protocole sécurise une connexion web ?","answers":["HTTPS","JPEG","MP3","USB"],"correctIndex":0}],
+    "3ème": [{"question":"Quel est le rôle du DNS ?","answers":["Associer un nom de domaine à une adresse IP","Chiffrer toutes les images","Stocker les mots de passe","Mesurer les écrans"],"correctIndex":0}],
+    "2nde": [{"question":"Quel protocole est au cœur des échanges du Web ?","answers":["HTTP","Bluetooth","PNG","CSV"],"correctIndex":0}]
+  }
+}
