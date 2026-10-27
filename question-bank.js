@@ -1359,6 +1359,142 @@ window.QUESTION_BANK = {
       ],
       "ok": 0,
       "why": "Le guide indique que le programme 2024 propose trois blocs de trois compétences, soit neuf compétences."
+    },
+    {
+      "q": "Avec A = vrai et B = faux, quelle valeur prend A ET B ?",
+      "a": [
+        "Faux : ET n’est vrai que si les deux valeurs sont vraies",
+        "Vrai : il suffit qu’une valeur soit vraie",
+        "Vrai seulement si les deux valeurs sont fausses",
+        "Impossible à déterminer sans connaître l’ordre des valeurs"
+      ],
+      "ok": 0,
+      "why": "ET (AND) est vrai uniquement lorsque ses deux opérandes sont vraies.",
+      "id": "3e-83",
+      "theme": "opérateurs booléens — ET",
+      "status": "Relue par Hermes; définition vérifiée avec la documentation officielle Python sur les opérations booléennes; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
+    },
+    {
+      "q": "Avec A = faux et B = vrai, quelle valeur prend A OU B ?",
+      "a": [
+        "Faux, car A est faux",
+        "Vrai : OU est vrai si au moins une valeur est vraie",
+        "Faux, car les deux valeurs doivent être vraies",
+        "Cela dépend de la valeur de A uniquement"
+      ],
+      "ok": 1,
+      "why": "OU (OR) inclusif est vrai dès qu’au moins une des deux valeurs est vraie.",
+      "id": "3e-84",
+      "theme": "opérateurs booléens — OU",
+      "status": "Relue par Hermes; définition vérifiée avec la documentation officielle Python sur les opérations booléennes; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
+    },
+    {
+      "q": "Avec A = vrai et B = vrai, quelle valeur prend A XOR B ?",
+      "a": [
+        "Vrai, car les deux valeurs sont vraies",
+        "Vrai, car XOR signifie toujours OU inclusif",
+        "Faux : XOR est vrai lorsque les deux valeurs sont différentes",
+        "On ne peut pas appliquer XOR à deux valeurs booléennes"
+      ],
+      "ok": 2,
+      "why": "XOR (OU exclusif) est vrai si une seule des deux valeurs est vraie; avec deux valeurs vraies, le résultat est faux.",
+      "id": "3e-85",
+      "theme": "opérateurs booléens — XOR",
+      "status": "Relue par Hermes; définition vérifiée avec le dictionnaire NIST des algorithmes et structures de données; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://xlinux.nist.gov/dads/HTML/xor.html"
+      ]
+    },
+    {
+      "q": "Si A = faux, que vaut NON A ?",
+      "a": [
+        "Faux, car NON conserve toujours la valeur",
+        "Cela dépend d’une deuxième variable",
+        "NON A n’a pas de résultat",
+        "Vrai, car NON inverse la valeur logique"
+      ],
+      "ok": 3,
+      "why": "NON (NOT) inverse la valeur : NON faux vaut vrai et NON vrai vaut faux.",
+      "id": "3e-86",
+      "theme": "opérateurs booléens — NON",
+      "status": "Relue par Hermes; opérateur vérifié avec la documentation officielle Python sur les opérations booléennes; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
+    },
+    {
+      "q": "On sait que A = vrai, B = faux et C = vrai. Que vaut (A ET B) OU C ?",
+      "a": [
+        "Vrai",
+        "Faux",
+        "Impossible à calculer sans parenthèses supplémentaires",
+        "La condition est invalide"
+      ],
+      "ok": 0,
+      "why": "A ET B vaut faux; faux OU C, avec C vrai, vaut vrai.",
+      "id": "3e-87",
+      "theme": "conditions composées",
+      "status": "Relue par Hermes; évaluation par table de vérité des opérateurs ET/OU; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
+    },
+    {
+      "q": "On sait que A = faux, B = vrai et C = vrai. Que vaut A ET (B OU C) ?",
+      "a": [
+        "Vrai, car B et C sont vrais",
+        "Faux, car A est faux",
+        "Vrai, car OU est prioritaire dans tous les langages",
+        "Impossible à déterminer"
+      ],
+      "ok": 1,
+      "why": "B OU C vaut vrai, mais A ET vrai vaut faux puisque A est faux. Les parenthèses indiquent le regroupement à évaluer.",
+      "id": "3e-88",
+      "theme": "conditions composées",
+      "status": "Relue par Hermes; évaluation par table de vérité des opérateurs ET/OU; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
+    },
+    {
+      "q": "Si A = faux et B = faux, que vaut NON (A OU B) ?",
+      "a": [
+        "Faux, car A OU B est faux",
+        "Vrai, car OU exige deux valeurs vraies",
+        "Vrai, car A OU B vaut faux puis NON l’inverse",
+        "On ne peut pas inverser une expression composée"
+      ],
+      "ok": 2,
+      "why": "A OU B vaut faux quand les deux valeurs sont fausses; NON faux vaut vrai.",
+      "id": "3e-89",
+      "theme": "conditions composées",
+      "status": "Relue par Hermes; évaluation par table de vérité des opérateurs OU/NON; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
+    },
+    {
+      "q": "Une porte s’ouvre seulement si le badge est valide ET si le code est correct. Le badge est valide, mais le code est incorrect. Que fait la porte ?",
+      "a": [
+        "Elle s’ouvre, car une seule condition suffit",
+        "Elle s’ouvre seulement si le badge est invalide",
+        "Le résultat dépend de l’ordre de saisie",
+        "Elle reste fermée, car les deux conditions doivent être vraies"
+      ],
+      "ok": 3,
+      "why": "La condition utilise ET : badge valide et code correct doivent être vrais tous les deux.",
+      "id": "3e-90",
+      "theme": "conditions composées",
+      "status": "Relue par Hermes; application d’ET à une situation simple; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
     }
   ],
   "2nde": [
@@ -1902,6 +2038,176 @@ window.QUESTION_BANK = {
         "vie privée",
         "consentement",
         "visibilité"
+      ]
+    },
+    {
+      "q": "Un algorithme fixe x à 3. Il ajoute 4 à x si x est inférieur à 5 ET supérieur à 0; sinon il retire 1. Quelle valeur affiche-t-il à la fin ?",
+      "a": [
+        "7",
+        "2",
+        "3",
+        "4"
+      ],
+      "ok": 0,
+      "why": "Pour x = 3, les deux tests sont vrais; l’algorithme exécute donc x ← x + 4 et affiche 7.",
+      "id": "SNT-84",
+      "theme": "algorithmique — condition composée",
+      "status": "Relue par Hermes; trace d’algorithme vérifiée pas à pas; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#if-statements"
+      ]
+    },
+    {
+      "q": "Une valeur n appartient à l’intervalle [10 ; 20[ si n ≥ 10 ET n < 20. Pour n = 20, quel est le résultat du test ?",
+      "a": [
+        "Vrai, car 20 est la borne supérieure",
+        "Faux, car n < 20 n’est pas vérifié",
+        "Vrai, car n ≥ 10 suffit",
+        "Impossible sans connaître le type de n"
+      ],
+      "ok": 1,
+      "why": "À 20, le premier test est vrai mais le second est faux; reliés par ET, ils donnent faux.",
+      "id": "SNT-85",
+      "theme": "algorithmique — intervalle et condition",
+      "status": "Relue par Hermes; bornes de l’intervalle testées explicitement; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#if-statements"
+      ]
+    },
+    {
+      "q": "Un programme considère une mesure hors limites si x < 0 OU x > 100. Pour x = 0, cette condition est-elle vraie ?",
+      "a": [
+        "Oui, car x vaut une borne",
+        "Oui, car OU rend toujours la condition vraie",
+        "Non, car 0 < 0 et 0 > 100 sont tous deux faux",
+        "On ne peut pas comparer x aux limites"
+      ],
+      "ok": 2,
+      "why": "À x = 0, les deux comparaisons sont fausses; leur OU est donc faux. La borne 0 est admise par ces tests.",
+      "id": "SNT-86",
+      "theme": "algorithmique — condition composée",
+      "status": "Relue par Hermes; comparaisons strictes et borne vérifiées; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#if-statements"
+      ]
+    },
+    {
+      "q": "Si A = vrai et B = faux, que vaut NON (A ET B) ?",
+      "a": [
+        "Faux, car A est vrai",
+        "Faux, car NON ne s’applique qu’à une variable seule",
+        "Vrai uniquement si A et B sont faux",
+        "Vrai, car A ET B vaut faux puis NON inverse le résultat"
+      ],
+      "ok": 3,
+      "why": "A ET B vaut faux puisque B est faux; NON faux vaut vrai.",
+      "id": "SNT-87",
+      "theme": "conditions composées — NON",
+      "status": "Relue par Hermes; évaluation par étapes des opérateurs booléens; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
+    },
+    {
+      "q": "Un voyant s’allume si exactement une des deux alertes A ou B est active (A XOR B). Que se passe-t-il si A et B sont toutes deux actives ?",
+      "a": [
+        "Le voyant reste éteint, car XOR exige des valeurs différentes",
+        "Le voyant s’allume, car au moins une alerte est active",
+        "Le voyant clignote toujours",
+        "Le résultat est indéterminé"
+      ],
+      "ok": 0,
+      "why": "XOR est vrai lorsque les deux entrées diffèrent; ici elles sont toutes deux vraies, donc le voyant reste éteint.",
+      "id": "SNT-88",
+      "theme": "conditions composées — XOR",
+      "status": "Relue par Hermes; définition XOR vérifiée avec le dictionnaire NIST des algorithmes et structures de données; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://xlinux.nist.gov/dads/HTML/xor.html"
+      ]
+    },
+    {
+      "q": "Un algorithme additionne les nombres de 1 à 4 inclus : total commence à 0, puis chaque valeur est ajoutée une fois. Quel est le total final ?",
+      "a": [
+        "8",
+        "10",
+        "9",
+        "11"
+      ],
+      "ok": 1,
+      "why": "L’algorithme calcule 1 + 2 + 3 + 4 = 10.",
+      "id": "SNT-89",
+      "theme": "algorithmique — accumulation",
+      "status": "Relue par Hermes; calcul de boucle vérifié par énumération des quatre itérations; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#for-statements"
+      ]
+    },
+    {
+      "q": "Dans un algorithme, x vaut 1. Tant que x < 8, l’algorithme remplace x par 2 × x. Combien de fois la boucle s’exécute-t-elle ?",
+      "a": [
+        "2 fois",
+        "4 fois",
+        "3 fois",
+        "8 fois"
+      ],
+      "ok": 2,
+      "why": "x passe de 1 à 2, puis 4, puis 8. La condition devient alors fausse : trois passages ont eu lieu.",
+      "id": "SNT-90",
+      "theme": "algorithmique — boucle conditionnelle",
+      "status": "Relue par Hermes; trace 1→2→4→8 et arrêt vérifiés; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#while-statements"
+      ]
+    },
+    {
+      "q": "Un algorithme reçoit a = 7 et b = 9. Il initialise max à a, puis remplace max par b si b > max. Quelle valeur contient max à la fin ?",
+      "a": [
+        "7",
+        "16",
+        "0",
+        "9"
+      ],
+      "ok": 3,
+      "why": "Comme 9 > 7, l’algorithme remplace max par b, donc max vaut 9.",
+      "id": "SNT-91",
+      "theme": "algorithmique — sélection",
+      "status": "Relue par Hermes; trace de la condition et de l’affectation vérifiée; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#if-statements"
+      ]
+    },
+    {
+      "q": "Une alerte est déclenchée si (température < 5 OU température > 35) ET capteur_valide. La température vaut 40, mais le capteur n’est pas valide. L’alerte se déclenche-t-elle ?",
+      "a": [
+        "Oui, car 40 > 35 suffit toujours",
+        "Non, car la validité du capteur, reliée par ET, est fausse",
+        "Oui, car OU ignore les autres tests",
+        "La température doit être exactement 5"
+      ],
+      "ok": 1,
+      "why": "La parenthèse est vraie puisque 40 > 35, mais capteur_valide est faux; vrai ET faux donne faux.",
+      "id": "SNT-92",
+      "theme": "algorithmique — parenthèses et conditions composées",
+      "status": "Relue par Hermes; évaluation des comparaisons, parenthèses et ET vérifiée; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#boolean-operations"
+      ]
+    },
+    {
+      "q": "Une boucle commence avec i = 1 et total = 0. À chaque passage, elle ajoute i à total puis augmente i de 1; elle s’arrête quand i > 3. Quelle valeur finale obtient total ?",
+      "a": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "ok": 2,
+      "why": "Les valeurs ajoutées sont 1, 2 et 3; leur somme est 6. Quand i devient 4, la boucle s’arrête.",
+      "id": "SNT-93",
+      "theme": "algorithmique — boucle et accumulateur",
+      "status": "Relue par Hermes; exécution pas à pas vérifiée, y compris la condition d’arrêt; entraînement proposé, ne prouve pas l’enseignement local.",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#for-statements"
       ]
     }
   ]
