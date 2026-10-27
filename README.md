@@ -22,7 +22,7 @@ Le workflow `.github/workflows/pages.yml` publie le contenu du dépôt sur GitHu
 
 ## Ajouter des contenus
 - Les ressources téléchargeables vont dans `resources/` et sont référencées dans `RESOURCES` de `app.js`.
-- Les questions et explications se trouvent dans l’objet `QUESTIONS` de `app.js`.
+- Les questions et explications se trouvent dans `question-bank.js` ; le JSON téléchargeable est une copie de la banque, avec `correctIndex` indexé à partir de zéro.
 - Les leçons sont dans le tableau `LESSONS` de `app.js`.
 
 Les questions et cours intégrés sont un contenu de démonstration à relire et adapter au programme et aux ressources de l’enseignant.
