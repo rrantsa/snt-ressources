@@ -1,72 +1,1909 @@
 {
-  "description": "Banque de questions de démonstration La Fabrique SNT. Les réponses correctes sont indexées à partir de zéro. Contenu à faire relire par l’équipe pédagogique avant usage évaluatif.",
   "levels": {
     "6ème": [
-      {"question":"Dans un objet technique, à quoi sert une fonction d’usage ?","answers":["À décrire le service rendu à l’utilisateur","À nommer le matériau principal","À indiquer la couleur du produit","À décrire uniquement son prix"],"correctIndex":0,"explanation":"La fonction d’usage exprime le service attendu ; plusieurs solutions techniques peuvent la réaliser."},
-      {"question":"Quel élément est un objet technique ?","answers":["Une gourde fabriquée pour transporter une boisson","Une rivière","Un caillou non transformé","Une feuille tombée d’un arbre"],"correctIndex":0,"explanation":"Un objet technique est conçu ou transformé pour répondre à un besoin."},
-      {"question":"Pour représenter une maquette avant sa fabrication, que doit montrer un croquis annoté ?","answers":["Les éléments utiles et des annotations compréhensibles","Des couleurs sans légende","Seulement une décoration","Un texte sans dessin ni repère"],"correctIndex":0,"explanation":"Les annotations aident à identifier composants, rôles ou dimensions utiles."},
-      {"question":"Dans une chaîne capteur–programme–actionneur, quel élément mesure une grandeur ?","answers":["Le capteur","Le programme","L’actionneur","L’alimentation"],"correctIndex":0,"explanation":"Le capteur acquiert une information ; les autres éléments ont d’autres rôles."},
-      {"question":"À quoi sert une condition dans un programme ?","answers":["À choisir une action selon un test","À répéter automatiquement un bloc","À fournir l’énergie au système","À mesurer directement une température"],"correctIndex":0,"explanation":"Une condition sélectionne un chemin d’exécution selon le résultat d’un test."},
-      {"question":"À quoi sert une boucle ?","answers":["À répéter une ou plusieurs instructions","À remplacer une condition dans tous les cas","À mesurer une grandeur physique","À dessiner le circuit électrique"],"correctIndex":0,"explanation":"Une boucle répète un traitement ; elle peut contenir une condition."},
-      {"question":"Avant de modifier un circuit de maquette en classe, que faut-il faire ?","answers":["Suivre les consignes de sécurité et l’état d’alimentation prévus par l’enseignant","Changer le câblage pendant que le circuit fonctionne","Augmenter la tension au hasard","Débrancher un composant sans consigne"],"correctIndex":0,"explanation":"On suit le protocole de l’activité et la supervision de l’enseignant."},
-      {"question":"Pourquoi comparer deux matériaux pour fabriquer un objet ?","answers":["Relier leurs propriétés aux besoins et contraintes d’usage","Choisir celui dont le nom est le plus court","Se fier uniquement à sa couleur","Supposer qu’un matériau convient à tous les usages"],"correctIndex":0,"explanation":"Le choix se justifie par les propriétés nécessaires à l’usage prévu."},
-      {"question":"Quel choix peut prolonger la durée d’usage d’un objet ?","answers":["Prévoir une pièce remplaçable lorsque c’est pertinent","Rendre toute réparation impossible","Remplacer l’objet dès qu’une pièce s’use","Ignorer les pièces détachées"],"correctIndex":0,"explanation":"La réparabilité peut prolonger l’usage, selon la conception de l’objet."},
-      {"question":"Pour présenter un projet de maquette, quelle preuve est la plus utile ?","answers":["Un essai décrit, son résultat et une amélioration justifiée","Une photo sans explication","Une opinion sans observation","Un résultat sans dire comment il a été obtenu"],"correctIndex":0,"explanation":"Un compte rendu relie les essais aux résultats et aux améliorations."}
+      {
+        "question": "Dans un objet technique, à quoi sert une fonction d’usage ?",
+        "answers": [
+          "À décrire le service rendu à l’utilisateur",
+          "À nommer le matériau principal",
+          "À indiquer la couleur du produit",
+          "À décrire uniquement son prix"
+        ],
+        "correctIndex": 0,
+        "explanation": "La fonction d’usage exprime le service attendu ; plusieurs solutions techniques peuvent la réaliser."
+      },
+      {
+        "question": "Quel élément est un objet technique ?",
+        "answers": [
+          "Une gourde fabriquée pour transporter une boisson",
+          "Une rivière",
+          "Un caillou non transformé",
+          "Une feuille tombée d’un arbre"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un objet technique est conçu ou transformé pour répondre à un besoin."
+      },
+      {
+        "question": "Pour représenter une maquette avant sa fabrication, que doit montrer un croquis annoté ?",
+        "answers": [
+          "Les éléments utiles et des annotations compréhensibles",
+          "Des couleurs sans légende",
+          "Seulement une décoration",
+          "Un texte sans dessin ni repère"
+        ],
+        "correctIndex": 0,
+        "explanation": "Les annotations aident à identifier composants, rôles ou dimensions utiles."
+      },
+      {
+        "question": "Dans une chaîne capteur–programme–actionneur, quel élément mesure une grandeur ?",
+        "answers": [
+          "Le capteur",
+          "Le programme",
+          "L’actionneur",
+          "L’alimentation"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le capteur acquiert une information ; les autres éléments ont d’autres rôles."
+      },
+      {
+        "question": "À quoi sert une condition dans un programme ?",
+        "answers": [
+          "À choisir une action selon un test",
+          "À répéter automatiquement un bloc",
+          "À fournir l’énergie au système",
+          "À mesurer directement une température"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une condition sélectionne un chemin d’exécution selon le résultat d’un test."
+      },
+      {
+        "question": "À quoi sert une boucle ?",
+        "answers": [
+          "À répéter une ou plusieurs instructions",
+          "À remplacer une condition dans tous les cas",
+          "À mesurer une grandeur physique",
+          "À dessiner le circuit électrique"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une boucle répète un traitement ; elle peut contenir une condition."
+      },
+      {
+        "question": "Avant de modifier un circuit de maquette en classe, que faut-il faire ?",
+        "answers": [
+          "Suivre les consignes de sécurité et l’état d’alimentation prévus par l’enseignant",
+          "Changer le câblage pendant que le circuit fonctionne",
+          "Augmenter la tension au hasard",
+          "Débrancher un composant sans consigne"
+        ],
+        "correctIndex": 0,
+        "explanation": "On suit le protocole de l’activité et la supervision de l’enseignant."
+      },
+      {
+        "question": "Pourquoi comparer deux matériaux pour fabriquer un objet ?",
+        "answers": [
+          "Relier leurs propriétés aux besoins et contraintes d’usage",
+          "Choisir celui dont le nom est le plus court",
+          "Se fier uniquement à sa couleur",
+          "Supposer qu’un matériau convient à tous les usages"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le choix se justifie par les propriétés nécessaires à l’usage prévu."
+      },
+      {
+        "question": "Quel choix peut prolonger la durée d’usage d’un objet ?",
+        "answers": [
+          "Prévoir une pièce remplaçable lorsque c’est pertinent",
+          "Rendre toute réparation impossible",
+          "Remplacer l’objet dès qu’une pièce s’use",
+          "Ignorer les pièces détachées"
+        ],
+        "correctIndex": 0,
+        "explanation": "La réparabilité peut prolonger l’usage, selon la conception de l’objet."
+      },
+      {
+        "question": "Pour présenter un projet de maquette, quelle preuve est la plus utile ?",
+        "answers": [
+          "Un essai décrit, son résultat et une amélioration justifiée",
+          "Une photo sans explication",
+          "Une opinion sans observation",
+          "Un résultat sans dire comment il a été obtenu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un compte rendu relie les essais aux résultats et aux améliorations."
+      }
     ],
     "5ème": [
-      {"question":"Pour comparer deux lampes rendant le même service, quelle démarche est pertinente ?","answers":["Mesurer la consommation pour un niveau d’éclairage comparable","Comparer deux grandeurs sans lien","Choisir uniquement selon la forme","Conclure à partir d’une mesure faite dans des conditions différentes"],"correctIndex":0,"explanation":"Une comparaison utile garde le service et les conditions comparables."},
-      {"question":"Dans un système automatisé, une entrée peut être…","answers":["Une mesure fournie par un capteur","L’action finale du moteur","Le boîtier du système uniquement","Une conclusion écrite après le test"],"correctIndex":0,"explanation":"Une entrée apporte une information au système, souvent issue d’un capteur ou d’une commande."},
-      {"question":"Quel rôle correspond à un actionneur ?","answers":["Réaliser une action commandée, comme allumer une lampe","Mesurer toujours la luminosité","Décider seul de la règle du programme","Stocker nécessairement toutes les données"],"correctIndex":0,"explanation":"L’actionneur agit sur l’environnement selon une commande."},
-      {"question":"Quel bloc convient pour allumer une lampe si la luminosité passe sous un seuil ?","answers":["Une condition qui compare la mesure au seuil","Une boucle sans aucun test","Une variable qui remplace toutes les instructions","Un commentaire seul"],"correctIndex":0,"explanation":"La condition permet de choisir l’action selon la mesure."},
-      {"question":"Que décrit le cycle de vie d’un objet ?","answers":["Des étapes telles que fabrication, usage et fin de vie","Uniquement son prix d’achat","Uniquement son apparence","Le trajet d’un paquet réseau"],"correctIndex":0,"explanation":"L’étude du cycle de vie considère plusieurs étapes de l’existence de l’objet."},
-      {"question":"Comment comparer la durée d’un transfert de fichiers ?","answers":["Transférer la même taille dans des conditions comparables et noter le protocole","Comparer des tailles différentes sans contexte","Noter seulement le nom du câble","Choisir le résultat le plus rapide sans répéter"],"correctIndex":0,"explanation":"La taille et les conditions doivent être contrôlées pour interpréter la durée."},
-      {"question":"Quelle pratique aide à retrouver les versions d’un projet ?","answers":["Utiliser des noms de fichiers cohérents et conserver les versions utiles","Écraser chaque fichier sans repère","Supprimer la source des documents","Mélanger toutes les versions dans un même fichier"],"correctIndex":0,"explanation":"Le nommage et le versionnage rendent le travail traçable."},
-      {"question":"Quelle information accompagne correctement une ressource réutilisée ?","answers":["Sa source et, lorsque nécessaire, ses conditions de réutilisation","Le seul nom du fichier téléchargé","Une attribution inventée","Aucune information sur son origine"],"correctIndex":0,"explanation":"La provenance et la licence éventuelle doivent être vérifiées."},
-      {"question":"Pourquoi tester un programme après une modification ?","answers":["Pour vérifier qu’il répond encore au besoin dans plusieurs situations","Pour éviter de lire ses résultats","Pour supprimer les cas où il échoue","Pour changer le besoin sans le signaler"],"correctIndex":0,"explanation":"Les tests révèlent les écarts entre le comportement attendu et obtenu."},
-      {"question":"Quelle trace soutient une présentation de projet collectif ?","answers":["Les rôles, décisions, essais et améliorations","Un fichier final sans historique","Un avis non daté","La suppression des essais infructueux"],"correctIndex":0,"explanation":"Une trace de projet explique comment les choix et résultats ont été obtenus."}
+      {
+        "question": "Pour comparer deux lampes rendant le même service, quelle démarche est pertinente ?",
+        "answers": [
+          "Mesurer la consommation pour un niveau d’éclairage comparable",
+          "Comparer deux grandeurs sans lien",
+          "Choisir uniquement selon la forme",
+          "Conclure à partir d’une mesure faite dans des conditions différentes"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une comparaison utile garde le service et les conditions comparables."
+      },
+      {
+        "question": "Dans un système automatisé, une entrée peut être…",
+        "answers": [
+          "Une mesure fournie par un capteur",
+          "L’action finale du moteur",
+          "Le boîtier du système uniquement",
+          "Une conclusion écrite après le test"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une entrée apporte une information au système, souvent issue d’un capteur ou d’une commande."
+      },
+      {
+        "question": "Quel rôle correspond à un actionneur ?",
+        "answers": [
+          "Réaliser une action commandée, comme allumer une lampe",
+          "Mesurer toujours la luminosité",
+          "Décider seul de la règle du programme",
+          "Stocker nécessairement toutes les données"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’actionneur agit sur l’environnement selon une commande."
+      },
+      {
+        "question": "Quel bloc convient pour allumer une lampe si la luminosité passe sous un seuil ?",
+        "answers": [
+          "Une condition qui compare la mesure au seuil",
+          "Une boucle sans aucun test",
+          "Une variable qui remplace toutes les instructions",
+          "Un commentaire seul"
+        ],
+        "correctIndex": 0,
+        "explanation": "La condition permet de choisir l’action selon la mesure."
+      },
+      {
+        "question": "Que décrit le cycle de vie d’un objet ?",
+        "answers": [
+          "Des étapes telles que fabrication, usage et fin de vie",
+          "Uniquement son prix d’achat",
+          "Uniquement son apparence",
+          "Le trajet d’un paquet réseau"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’étude du cycle de vie considère plusieurs étapes de l’existence de l’objet."
+      },
+      {
+        "question": "Comment comparer la durée d’un transfert de fichiers ?",
+        "answers": [
+          "Transférer la même taille dans des conditions comparables et noter le protocole",
+          "Comparer des tailles différentes sans contexte",
+          "Noter seulement le nom du câble",
+          "Choisir le résultat le plus rapide sans répéter"
+        ],
+        "correctIndex": 0,
+        "explanation": "La taille et les conditions doivent être contrôlées pour interpréter la durée."
+      },
+      {
+        "question": "Quelle pratique aide à retrouver les versions d’un projet ?",
+        "answers": [
+          "Utiliser des noms de fichiers cohérents et conserver les versions utiles",
+          "Écraser chaque fichier sans repère",
+          "Supprimer la source des documents",
+          "Mélanger toutes les versions dans un même fichier"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le nommage et le versionnage rendent le travail traçable."
+      },
+      {
+        "question": "Quelle information accompagne correctement une ressource réutilisée ?",
+        "answers": [
+          "Sa source et, lorsque nécessaire, ses conditions de réutilisation",
+          "Le seul nom du fichier téléchargé",
+          "Une attribution inventée",
+          "Aucune information sur son origine"
+        ],
+        "correctIndex": 0,
+        "explanation": "La provenance et la licence éventuelle doivent être vérifiées."
+      },
+      {
+        "question": "Pourquoi tester un programme après une modification ?",
+        "answers": [
+          "Pour vérifier qu’il répond encore au besoin dans plusieurs situations",
+          "Pour éviter de lire ses résultats",
+          "Pour supprimer les cas où il échoue",
+          "Pour changer le besoin sans le signaler"
+        ],
+        "correctIndex": 0,
+        "explanation": "Les tests révèlent les écarts entre le comportement attendu et obtenu."
+      },
+      {
+        "question": "Quelle trace soutient une présentation de projet collectif ?",
+        "answers": [
+          "Les rôles, décisions, essais et améliorations",
+          "Un fichier final sans historique",
+          "Un avis non daté",
+          "La suppression des essais infructueux"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une trace de projet explique comment les choix et résultats ont été obtenus."
+      },
+      {
+        "question": "Que caractérise principalement la rigidité ?",
+        "answers": [
+          "La résistance à la déformation sous une contrainte donnée",
+          "La capacité à reprendre sa forme après déformation",
+          "La charge maximale avant rupture",
+          "La capacité à conduire la chaleur"
+        ],
+        "correctIndex": 0,
+        "explanation": "La rigidité concerne la résistance à la déformation; élasticité, rupture et conductivité sont distinctes.",
+        "id": "5e-87",
+        "theme": "rigidité",
+        "status": "Relue par Hermes; définition soutenue par une source secondaire; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://sciences-tec.fr/cours/515-materiaux-proprietes/",
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A"
+        ]
+      },
+      {
+        "question": "Un programme teste x >= 10. Que se passe-t-il si x vaut exactement 10 ?",
+        "answers": [
+          "La condition est vraie; avec x > 10 elle serait fausse",
+          "La condition est fausse car égaler le seuil ne suffit pas",
+          "x > 10 et x >= 10 donnent toujours le même résultat au seuil",
+          "x > 10 inclut le seuil alors que x >= 10 l’exclut"
+        ],
+        "correctIndex": 0,
+        "explanation": ">= inclut la valeur du seuil, contrairement à >.",
+        "id": "5e-94",
+        "theme": "seuil",
+        "status": "Relue par Hermes; documentation MakeCode, opérateurs de comparaison; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://makecode.microbit.org/blocks/logic/boolean"
+        ]
+      },
+      {
+        "question": "Que permettent d’estimer des mesures répétées par rapport à une mesure unique ?",
+        "answers": [
+          "La dispersion des résultats et une incertitude-type",
+          "La valeur vraie automatiquement, grâce à la moyenne",
+          "La suppression de toutes les erreurs si l’on répète assez",
+          "La précision sans tenir compte de l’instrument ni du protocole"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une série de mesures indépendantes permet d’étudier la dispersion et d’estimer une incertitude-type; elle ne garantit ni une valeur exacte ni la suppression des erreurs.",
+        "id": "5e-99",
+        "theme": "répétabilité",
+        "status": "Relue par Hermes; Éduscol, activité sur la variabilité des mesures et l’incertitude-type, pp. 1–3; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://eduscol.education.fr/document/16048/download"
+        ]
+      },
+      {
+        "question": "Dans une paire d’engrenages, quel effet est lié au nombre de dents des roues ?",
+        "answers": [
+          "Le rapport de vitesse et de couple transmis",
+          "Le sens opposé des roues, qui vient de l’engrènement quelle que soit leur taille",
+          "L’absence de tout rapport entre les vitesses",
+          "La transformation obligatoire du mouvement en translation"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le nombre de dents agit sur le rapport; le sens opposé provient de l’engrènement des roues extérieures.",
+        "id": "5e-91",
+        "theme": "engrenages",
+        "status": "Relue par Hermes; Éduscol STI, Anglade & Horsin Molinaro, 13/10/2017, §§1–2; PDF officiel consulté via copie miroir.",
+        "sources": [
+          "https://sti.eduscol.education.fr/sites/eduscol.education.fr.sti/files/ressources/pedagogiques/9159/9159-engrenages-conditions-dengrenement-et-procedes-dobtention-ensps.pdf",
+          "http://jeanpierre.rousset.free.fr/Informatique/Applications/Engrenages/9159-engrenages-conditions-dengrenement-et-procedes-dobtention-ensps.pdf"
+        ]
+      },
+      {
+        "question": "Pour deux roues dentées extérieures en contact, pourquoi faut-il régler correctement la distance entre leurs axes (l’entraxe) ?",
+        "answers": [
+          "Pour garder les dents en contact et assurer une rotation continue sans blocage",
+          "Pour augmenter le rapport de transmission sans changer les roues",
+          "Pour rendre le jeu exactement nul dans tous les montages",
+          "Pour faire tourner les deux roues dans le même sens"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un entraxe correct maintient l’engrènement et une rotation continue; un mauvais réglage peut provoquer un blocage.",
+        "id": "5e-92",
+        "theme": "engrenement",
+        "status": "Relue par Hermes; Éduscol STI, Anglade & Horsin Molinaro, 13/10/2017, §§1–2 et 6; PDF officiel consulté via copie miroir.",
+        "sources": [
+          "https://sti.eduscol.education.fr/sites/eduscol.education.fr.sti/files/ressources/pedagogiques/9159/9159-engrenages-conditions-dengrenement-et-procedes-dobtention-ensps.pdf",
+          "http://jeanpierre.rousset.free.fr/Informatique/Applications/Engrenages/9159-engrenages-conditions-dengrenement-et-procedes-dobtention-ensps.pdf"
+        ]
+      },
+      {
+        "question": "Quel choix facilite la réparation ?",
+        "answers": [
+          "Prévoir un accès aux pièces et une fixation démontable avec outils adaptés",
+          "Prévoir une pièce standard mais sans accès",
+          "Sceller les pièces sans démontage prévu",
+          "Remplacer le module complet pour toute panne"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’indice de réparabilité prend en compte la facilité de démontage, les outils nécessaires et l’accès aux pièces.",
+        "id": "5e-88",
+        "theme": "réparabilité",
+        "status": "Relue par Hermes; Ministère de la Transition écologique, Indice de réparabilité, publiée 16/12/2024, mise à jour 08/07/2025, méthode de calcul; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.ecologie.gouv.fr/politiques-publiques/indice-reparabilite"
+        ]
+      },
+      {
+        "question": "Quel ensemble de critères aide à comparer la durabilité de deux appareils ?",
+        "answers": [
+          "Durée d’usage, disponibilité des pièces et possibilité de réparation",
+          "Nombre de fonctions et aspect neuf au moment de l’achat",
+          "Prix initial et poids de l’emballage sans autre information",
+          "Puissance annoncée et couleur du boîtier"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’indice de durabilité associe durée de vie, fiabilité et facilité de réparation ou de maintenance.",
+        "id": "5e-89",
+        "theme": "durabilité",
+        "status": "Relue par Hermes; Ministère de la Transition écologique, Indice de durabilité, publiée 09/04/2024, mise à jour 30/06/2025, objectif et méthode de calcul; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.ecologie.gouv.fr/politiques-publiques/indice-durabilite"
+        ]
+      },
+      {
+        "question": "Deux parois sont testées avec une boisson à 4 °C, salle à 25 °C, même volume, couvercle fermé et relevés chaque minute. A atteint 8 °C au 12e relevé et B au 20e. Quelle interprétation est la plus rigoureuse ?",
+        "answers": [
+          "B ralentit davantage le réchauffement dans les conditions testées",
+          "B est deux fois plus isolante dans toute situation",
+          "Les relevés à la minute donnent l’instant exact où la boisson a franchi 8 °C",
+          "A est plus isolante parce qu’elle atteint le seuil plus tôt"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le seuil est atteint plus tard pour B; la conclusion reste limitée au protocole et à l’intervalle d’échantillonnage.",
+        "id": "5e-86",
+        "theme": "isolation thermique",
+        "status": "Relue par Hermes; American Chemical Society, Activity – Be Cool... with Insulation!, 2021, « How does it work? »; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.acs.org/education/celebrating-chemistry-editions/2021-ccew/insulation-activity.html"
+        ]
+      },
+      {
+        "question": "Dans une chaîne d’énergie, quel exemple correspond à une conversion ?",
+        "answers": [
+          "Un moteur transforme une énergie électrique en énergie mécanique",
+          "Une roue dentée transmet un mouvement à une autre",
+          "Une batterie stocke de l’énergie",
+          "Un câble alimente un composant"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un moteur convertit l’énergie électrique en énergie mécanique; transmission, stockage et alimentation sont d’autres fonctions.",
+        "id": "5e-90",
+        "theme": "conversion d’énergie",
+        "status": "Relue par Hermes; Académie de Nantes, « transformations de l’énergie », mise à jour 11/11/2013, passage sur le moteur électrique; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://pedagogie.ac-nantes.fr/les-disciplines-du-second-degre/technologie-et-sciences-industrielles-de-l-ingenieur/mutualisation/liaison-ecole-college/transformations-de-lenergie"
+        ]
+      },
+      {
+        "question": "Quelle information rend un test reproductible ?",
+        "answers": [
+          "Conditions, réglages, durée, unité, ordre des étapes et critère précisés",
+          "Une condition précisée mais les autres paramètres changent",
+          "Mesures notées sans leur unité",
+          "Résultat attendu choisi avant l’essai"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un protocole précise qui fait quoi, quand, comment et avec quel matériel pour permettre de refaire et comparer l’essai.",
+        "id": "5e-98",
+        "theme": "protocole",
+        "status": "Relue par Hermes; Éduscol/Ministère, « Séquence 1 – Réparation d’un panier de basket de bureau », juillet 2025, pp. 1, 5, 8–11; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://eduscol.education.fr/document/66668/download"
+        ]
+      },
+      {
+        "question": "Un test ne respecte pas le critère. Quelle conclusion est correcte ?",
+        "answers": [
+          "Le critère n’est pas atteint dans les conditions testées; analyser l’écart",
+          "Le critère est forcément mal choisi quelle que soit la mesure",
+          "Le prototype est validé car un autre essai était concluant",
+          "La solution échouera dans toutes les conditions"
+        ],
+        "correctIndex": 0,
+        "explanation": "Il faut comparer les résultats au critère dans les conditions testées et analyser l’écart avant de conclure.",
+        "id": "5e-100",
+        "theme": "validation",
+        "status": "Relue par Hermes; Éduscol/Ministère, « Séquence 1 – Réparation d’un panier de basket de bureau », juillet 2025, pp. 1, 8–11; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://eduscol.education.fr/document/66668/download"
+        ]
+      },
+      {
+        "question": "Pourquoi comparer le résultat d’une simulation avec celui d’un test réalisé ?",
+        "answers": [
+          "Pour repérer un écart éventuel et analyser ses causes avant d’évaluer la solution",
+          "Pour prouver que la simulation et l’objet réel donnent toujours le même résultat",
+          "Pour garder le résultat le plus favorable et écarter l’autre",
+          "Pour remplacer le critère par la valeur obtenue dans la simulation"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un écart entre simulation et essai réel doit être examiné et expliqué avant de conclure.",
+        "id": "5e-101",
+        "theme": "validation par simulation",
+        "status": "Relue par Hermes; Éduscol/Ministère, « Séquence 1 – Réparation d’un panier de basket de bureau », juillet 2025, p. 10 (comparer simulation et protocole de test, expliquer les écarts); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://eduscol.education.fr/document/66668/download"
+        ]
+      },
+      {
+        "question": "Le capteur ultrason de mBot est donné pour 3 à 400 cm, avec une erreur annoncée inférieure à 1 cm. Que conclure si le programme affiche 450 cm ?",
+        "answers": [
+          "La valeur est hors de la plage documentée; il faut vérifier la mesure ou choisir un capteur adapté",
+          "La mesure est garantie exacte à 450 cm grâce à l’erreur inférieure à 1 cm",
+          "Passer de centimètres à pouces augmente la portée physique du capteur",
+          "Toute valeur affichée est fiable dès qu’un obstacle est présent"
+        ],
+        "correctIndex": 0,
+        "explanation": "La plage spécifiée s’arrête à 400 cm; l’erreur annoncée ne permet pas de garantir une mesure au-delà.",
+        "id": "5e-93",
+        "theme": "plage de mesure",
+        "status": "Relue par Hermes; Makeblock Help Center, « About Me Ultrasonic Sensor (for mBot) », 02/03/2023, sections Specifications et Programming guide; contenu vérifié via Jina reader, URL source originale; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://support.makeblock.com/hc/en-us/articles/12797662557719-About-Me-Ultrasonic-Sensor-for-mBot"
+        ]
+      },
+      {
+        "question": "Dans l’exemple Makeblock, la valeur du capteur est transmise toutes les 100 ms. Que représente cette durée ?",
+        "answers": [
+          "L’intervalle entre deux transmissions successives de mesure",
+          "La marge d’erreur maximale du capteur",
+          "La portée maximale de détection",
+          "L’unité de mesure de la distance"
+        ],
+        "correctIndex": 0,
+        "explanation": "La documentation indique une transmission toutes les 100 ms : cela définit le rythme des relevés, pas l’exactitude ni la portée.",
+        "id": "5e-96",
+        "theme": "fréquence de mesure",
+        "status": "Relue par Hermes; Makeblock Help Center, « About Me Ultrasonic Sensor (for mBot) », 02/03/2023, section Programming guide; contenu vérifié via Jina reader, URL source originale; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://support.makeblock.com/hc/en-us/articles/12797662557719-About-Me-Ultrasonic-Sensor-for-mBot"
+        ]
+      },
+      {
+        "question": "Avant de traduire un comportement en blocs, quelle description aide à en prévoir les étapes ?",
+        "answers": [
+          "Un algorithme formulé en langage naturel qui décrit la réponse au problème",
+          "Un schéma de câblage des composants",
+          "Un chronogramme indiquant seulement la durée des signaux",
+          "Une liste des pièces utilisées dans le prototype"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un algorithme décrit les étapes de résolution avant leur traduction en programme.",
+        "id": "5e-95",
+        "theme": "algorithme",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, arrêté du 09/02/2024, BO n° 9, annexe, pp. 12 et 16 (algorithme en langage naturel, programme répondant au problème); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%94%20Programme%20de%20technologie%20du%20cycle%204-368016.pdf"
+        ]
+      },
+      {
+        "question": "Dans l’analyse d’un objet technique, quelle association est correcte ?",
+        "answers": [
+          "« Éclairer la zone » est une fonction attendue; « respecter une masse maximale » est une contrainte",
+          "« Éclairer la zone » est une contrainte; « respecter une masse maximale » est une fonction attendue",
+          "Les deux formulations décrivent des fonctions attendues",
+          "Les deux formulations décrivent des contraintes"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une fonction décrit le service visé; une contrainte fixe une limite à respecter par la solution.",
+        "id": "5e-85",
+        "theme": "fonction et contrainte",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, arrêté du 09/02/2024, BO n° 9, annexe, pp. 5 et 12 (attentes utilisateur, contraintes, fonction répondant à un besoin); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%94%20Programme%20de%20technologie%20du%20cycle%204-368016.pdf"
+        ]
+      }
     ],
     "4ème": [
-      {"question":"Pour choisir un capteur, quelle information est la plus utile ?","answers":["Sa plage de mesure et les performances requises","Sa couleur uniquement","La marque sans caractéristiques","La longueur du câble sans connaître l’installation"],"correctIndex":0,"explanation":"Le capteur doit correspondre à la grandeur et aux exigences de mesure."},
-      {"question":"Que représente une contrainte dans un cahier des charges ?","answers":["Une exigence à respecter, par exemple une plage de fonctionnement","Une préférence sans rapport avec le besoin","Un résultat choisi après le test","Le nom d’un composant"],"correctIndex":0,"explanation":"Une contrainte encadre la solution et peut concerner sécurité, performance ou usage."},
-      {"question":"Dans une chaîne d’énergie, que décrit-on ?","answers":["Les fonctions qui acheminent ou convertissent l’énergie jusqu’à l’action","Le trajet d’une information uniquement","Les lignes d’un tableau CSV","Les noms des utilisateurs"],"correctIndex":0,"explanation":"La chaîne d’énergie décrit comment l’énergie permet l’action du système."},
-      {"question":"Dans « capteur → traitement → alerte », quel est le rôle du traitement ?","answers":["Exploiter la mesure selon une règle et produire éventuellement une commande","Mesurer à la place du capteur","Réaliser toujours l’action mécanique","Fournir nécessairement toute l’énergie"],"correctIndex":0,"explanation":"Le traitement exploite l’information acquise et peut commander une action."},
-      {"question":"Si une vanne doit s’ouvrir quand une mesure atteint ou dépasse un seuil, quelle condition convient ?","answers":["mesure ≥ seuil","mesure < seuil","mesure inconnue","ouvrir avant toute mesure"],"correctIndex":0,"explanation":"Le signe ≥ correspond à « atteint ou dépasse » ; les unités doivent être compatibles."},
-      {"question":"Dans un réseau local, quel rôle est généralement associé à un point d’accès Wi‑Fi ?","answers":["Relier sans fil des appareils au réseau local","Résoudre à lui seul tous les noms de domaine","Mesurer une grandeur physique","Remplacer tout routeur dans chaque architecture"],"correctIndex":0,"explanation":"Un point d’accès fournit une connexion sans fil au LAN ; les rôles peuvent être réunis dans une box."},
-      {"question":"Comment rendre un tableau de mesures plus interprétable ?","answers":["Indiquer grandeur, unité et conditions utiles","Mélanger plusieurs unités sans les signaler","Omettre les titres de colonnes","Arrondir différemment sans le noter"],"correctIndex":0,"explanation":"Les unités et le contexte permettent d’interpréter et de comparer les valeurs."},
-      {"question":"Quelle démarche aide à diagnostiquer une panne ?","answers":["Décrire le symptôme, tester une hypothèse et consigner le résultat","Remplacer plusieurs pièces au hasard","Modifier plusieurs paramètres sans noter les changements","Choisir une cause sans essai"],"correctIndex":0,"explanation":"Un diagnostic s’appuie sur des observations et des tests traçables."},
-      {"question":"Dans le cadre d’une activité scolaire, quelle conduite est appropriée avant une réparation ?","answers":["Suivre le protocole et la supervision prévus par l’enseignant","Intervenir sur le secteur pour gagner du temps","Changer une pièce avant d’identifier le symptôme","Tester sans consigner les conditions"],"correctIndex":0,"explanation":"La sécurité dépend du protocole de l’activité ; les élèves suivent les consignes données."},
-      {"question":"Comment valider un prototype par rapport à un cahier des charges ?","answers":["Effectuer les tests prévus et comparer les résultats aux critères","Conclure après une réussite isolée","Remplacer les critères par une impression","Modifier le prototype sans conserver les résultats"],"correctIndex":0,"explanation":"La validation compare des résultats obtenus aux exigences définies."}
+      {
+        "question": "Pour choisir un capteur, quelle information est la plus utile ?",
+        "answers": [
+          "Sa plage de mesure et les performances requises",
+          "Sa couleur uniquement",
+          "La marque sans caractéristiques",
+          "La longueur du câble sans connaître l’installation"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le capteur doit correspondre à la grandeur et aux exigences de mesure."
+      },
+      {
+        "question": "Que représente une contrainte dans un cahier des charges ?",
+        "answers": [
+          "Une exigence à respecter, par exemple une plage de fonctionnement",
+          "Une préférence sans rapport avec le besoin",
+          "Un résultat choisi après le test",
+          "Le nom d’un composant"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une contrainte encadre la solution et peut concerner sécurité, performance ou usage."
+      },
+      {
+        "question": "Dans une chaîne d’énergie, que décrit-on ?",
+        "answers": [
+          "Les fonctions qui acheminent ou convertissent l’énergie jusqu’à l’action",
+          "Le trajet d’une information uniquement",
+          "Les lignes d’un tableau CSV",
+          "Les noms des utilisateurs"
+        ],
+        "correctIndex": 0,
+        "explanation": "La chaîne d’énergie décrit comment l’énergie permet l’action du système."
+      },
+      {
+        "question": "Dans « capteur → traitement → alerte », quel est le rôle du traitement ?",
+        "answers": [
+          "Exploiter la mesure selon une règle et produire éventuellement une commande",
+          "Mesurer à la place du capteur",
+          "Réaliser toujours l’action mécanique",
+          "Fournir nécessairement toute l’énergie"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le traitement exploite l’information acquise et peut commander une action."
+      },
+      {
+        "question": "Si une vanne doit s’ouvrir quand une mesure atteint ou dépasse un seuil, quelle condition convient ?",
+        "answers": [
+          "mesure ≥ seuil",
+          "mesure < seuil",
+          "mesure inconnue",
+          "ouvrir avant toute mesure"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le signe ≥ correspond à « atteint ou dépasse » ; les unités doivent être compatibles."
+      },
+      {
+        "question": "Dans un réseau local, quel rôle est généralement associé à un point d’accès Wi‑Fi ?",
+        "answers": [
+          "Relier sans fil des appareils au réseau local",
+          "Résoudre à lui seul tous les noms de domaine",
+          "Mesurer une grandeur physique",
+          "Remplacer tout routeur dans chaque architecture"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un point d’accès fournit une connexion sans fil au LAN ; les rôles peuvent être réunis dans une box."
+      },
+      {
+        "question": "Comment rendre un tableau de mesures plus interprétable ?",
+        "answers": [
+          "Indiquer grandeur, unité et conditions utiles",
+          "Mélanger plusieurs unités sans les signaler",
+          "Omettre les titres de colonnes",
+          "Arrondir différemment sans le noter"
+        ],
+        "correctIndex": 0,
+        "explanation": "Les unités et le contexte permettent d’interpréter et de comparer les valeurs."
+      },
+      {
+        "question": "Quelle démarche aide à diagnostiquer une panne ?",
+        "answers": [
+          "Décrire le symptôme, tester une hypothèse et consigner le résultat",
+          "Remplacer plusieurs pièces au hasard",
+          "Modifier plusieurs paramètres sans noter les changements",
+          "Choisir une cause sans essai"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un diagnostic s’appuie sur des observations et des tests traçables."
+      },
+      {
+        "question": "Dans le cadre d’une activité scolaire, quelle conduite est appropriée avant une réparation ?",
+        "answers": [
+          "Suivre le protocole et la supervision prévus par l’enseignant",
+          "Intervenir sur le secteur pour gagner du temps",
+          "Changer une pièce avant d’identifier le symptôme",
+          "Tester sans consigner les conditions"
+        ],
+        "correctIndex": 0,
+        "explanation": "La sécurité dépend du protocole de l’activité ; les élèves suivent les consignes données."
+      },
+      {
+        "question": "Comment valider un prototype par rapport à un cahier des charges ?",
+        "answers": [
+          "Effectuer les tests prévus et comparer les résultats aux critères",
+          "Conclure après une réussite isolée",
+          "Remplacer les critères par une impression",
+          "Modifier le prototype sans conserver les résultats"
+        ],
+        "correctIndex": 0,
+        "explanation": "La validation compare des résultats obtenus aux exigences définies."
+      },
+      {
+        "question": "Le capteur ultrasonique de mBot mesure une distance. Dans la chaîne d’information, quel rôle remplit-il ?",
+        "answers": [
+          "Acquérir une information issue de l’environnement et la transmettre au traitement",
+          "Analyser seul la mesure et choisir la commande finale",
+          "Agir mécaniquement sur l’objet",
+          "Distribuer l’énergie aux actionneurs"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le capteur fournit une mesure; le traitement l’interprète avant qu’une sortie ou une action soit commandée.",
+        "id": "4e-11",
+        "theme": "chaîne d’information",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, BO n° 9 du 29/02/2024, p. 7 (chaîne d’information); Makeblock Help Center, « About Me Ultrasonic Sensor (for mBot) », section Specifications, consultée via Jina Reader; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A",
+          "https://support.makeblock.com/hc/en-us/articles/12797662557719-About-Me-Ultrasonic-Sensor-for-mBot"
+        ]
+      },
+      {
+        "question": "Quel énoncé distingue correctement un réseau local d’Internet ?",
+        "answers": [
+          "Un réseau local relie des équipements dans un périmètre limité; Internet est un ensemble de réseaux interconnectés",
+          "Un réseau local ne peut jamais échanger de données",
+          "Internet est un unique réseau central contrôlé par un seul routeur",
+          "Un réseau local est toujours composé uniquement d’appareils sans fil"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un réseau local dessert un périmètre limité; l’Internet relie de nombreux réseaux, qui peuvent eux-mêmes être locaux.",
+        "id": "4e-15",
+        "theme": "réseau",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, BO n° 9 du 29/02/2024, p. 7 (réseaux locaux et circulation des données dans Internet); Internet Society, « About the Internet Way of Networking » (plus de 70 000 réseaux composent l’Internet mondial); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A",
+          "https://www.internetsociety.org/resources/internet-impact-assessment-toolkit/about-the-internet-way-of-networking/"
+        ]
+      },
+      {
+        "question": "Quel exemple représente un objet JSON associant un nom à une valeur ?",
+        "answers": [
+          "{\"temperature\": 21}",
+          "[\"temperature\", 21]",
+          "<temperature>21</temperature>",
+          "temperature = 21"
+        ],
+        "correctIndex": 0,
+        "explanation": "En JSON, un objet utilise des accolades et des paires nom/valeur séparées par un deux-points; les crochets délimitent un tableau.",
+        "id": "4e-16",
+        "theme": "données structurées",
+        "status": "Relue par Hermes; RFC 8259, « The JavaScript Object Notation (JSON) Data Interchange Format », décembre 2017, §§ 1 et 4 (objets JSON et paires nom/valeur); texte consulté directement sur rfc-editor.org; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.rfc-editor.org/rfc/rfc8259.txt"
+        ]
+      },
+      {
+        "question": "Pour fabriquer une pièce, pourquoi faut-il relier sa forme au procédé de fabrication envisagé ?",
+        "answers": [
+          "Chaque procédé a des possibilités et des limites de forme; il doit convenir à la géométrie souhaitée",
+          "La forme n’a aucun effet sur la faisabilité du procédé",
+          "Un procédé donné permet de produire toutes les formes sans contrainte",
+          "Le nom du matériau suffit à déterminer automatiquement la forme réalisable"
+        ],
+        "correctIndex": 0,
+        "explanation": "La géométrie de la pièce doit être compatible avec les possibilités du procédé choisi.",
+        "id": "4e-21",
+        "theme": "procédés de fabrication",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, BO n° 9 du 29/02/2024, p. 8 (repère de 4e : mettre en relation la forme d’une pièce et le procédé de réalisation); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A"
+        ]
+      },
+      {
+        "question": "Deux solutions rendent le même service mais utilisent des matériaux et des sources d’énergie différents. Quelle analyse aide à comparer leur impact environnemental ?",
+        "answers": [
+          "Identifier les étapes du cycle de vie touchées par ces choix, par exemple la fabrication, l’usage ou la fin de vie",
+          "Comparer uniquement leur prix d’achat",
+          "Examiner seulement la fin de vie et ignorer la fabrication et l’usage",
+          "Comparer uniquement leur apparence extérieure"
+        ],
+        "correctIndex": 0,
+        "explanation": "Les choix de matériaux et d’énergie peuvent influencer plusieurs étapes du cycle de vie; comparer une seule étape donne une vue incomplète.",
+        "id": "4e-22",
+        "theme": "cycle de vie et impacts",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, BO n° 9 du 29/02/2024, p. 6 (repère de 4e : étapes du cycle de vie influencées par les choix de matériaux et d’énergie); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A"
+        ]
+      },
+      {
+        "question": "Quel est le rôle principal d’un mécanisme de transmission comme un engrenage ou une courroie ?",
+        "answers": [
+          "Transmettre un mouvement d’un organe à un autre",
+          "Acquérir une information de l’environnement",
+          "Stocker une énergie électrique",
+          "Interpréter une donnée pour choisir une commande"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un engrenage ou une courroie peut transmettre un mouvement; le programme distingue cette fonction de la transformation du mouvement.",
+        "id": "4e-24",
+        "theme": "mécanismes de transmission",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, BO n° 9 du 29/02/2024, pp. 7–8 (distinguer transmission et transformation des mouvements; exemples : engrenages, courroies, chaînes); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A"
+        ]
+      },
+      {
+        "question": "Quelle pratique limite le risque qu’un mot de passe volé sur un site donne accès à d’autres comptes ?",
+        "answers": [
+          "Utiliser un mot de passe propre et unique pour chaque service",
+          "Réutiliser le même mot de passe partout et changer seulement le nom du site",
+          "Partager son mot de passe avec ses proches pour qu’ils le retiennent",
+          "Publier son mot de passe dans un message non chiffré"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un mot de passe unique évite qu’une fuite sur un service donne directement accès aux autres comptes; la CNIL recommande un mot de passe propre et unique.",
+        "id": "4e-28",
+        "theme": "sécurité numérique",
+        "status": "Relue par Hermes; CNIL, « Les conseils de la CNIL pour un bon mot de passe », 26/01/2017 (mot de passe propre et unique par compte); page consultée directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.cnil.fr/fr/les-conseils-de-la-cnil-pour-un-bon-mot-de-passe"
+        ]
+      },
+      {
+        "question": "Une application météo peut afficher les prévisions pour la ville saisie par l’utilisateur. Quelle collecte respecte le mieux le principe de minimisation ?",
+        "answers": [
+          "Utiliser la ville saisie sans conserver une position GPS précise si elle n’est pas nécessaire",
+          "Collecter la position précise en continu par défaut même si la ville suffit",
+          "Importer les contacts afin de compléter le profil météo",
+          "Conserver toutes les positions historiques sans limite"
+        ],
+        "correctIndex": 0,
+        "explanation": "La CNIL recommande de ne collecter que les données nécessaires à la finalité; une géolocalisation non indispensable doit rester facultative et être conservée uniquement le temps nécessaire.",
+        "id": "4e-29",
+        "theme": "données personnelles",
+        "status": "Relue par Hermes; CNIL, « Minimiser les données collectées », 27/01/2020 (données adéquates, pertinentes et nécessaires; géolocalisation facultative si non indispensable); page consultée directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://cnil.fr/fr/minimiser-les-donnees-collectees"
+        ]
+      }
     ],
     "3ème": [
-      {"question":"Pour comparer deux systèmes répondant au même besoin, quelle démarche est la plus complète ?","answers":["Examiner service rendu, performances, coût, impacts et durée d’usage","Comparer uniquement l’apparence","Choisir le plus récent sans essai","Comparer seulement le prix initial"],"correctIndex":0,"explanation":"Le choix technique s’appuie sur plusieurs critères liés au besoin et aux contraintes."},
-      {"question":"Dans un modèle fonctionnel, que décrit une fonction de service ?","answers":["Le service attendu par l’utilisateur ou le système","Le composant choisi uniquement","Une dimension de fabrication","Une valeur de capteur sans contexte"],"correctIndex":0,"explanation":"La fonction exprime le service ; une solution technique indique comment le réaliser."},
-      {"question":"Dans un tableau de données, que représente généralement une ligne (hors en-tête) ?","answers":["Une observation décrite par des champs","Une unité valable pour toutes les colonnes","Un programme complet","Un équipement réseau"],"correctIndex":0,"explanation":"Une table organise les observations en lignes et les attributs en colonnes."},
-      {"question":"Pourquoi tester un programme sur plusieurs cas ?","answers":["Pour vérifier le cas courant, les limites et les situations inattendues","Pour ne conserver que le résultat attendu","Pour éviter de consigner les entrées","Pour supprimer les erreurs sans les comprendre"],"correctIndex":0,"explanation":"Des cas variés aident à détecter des défauts invisibles dans un seul essai."},
-      {"question":"Quel dessin communique le mieux les dimensions d’une pièce avant fabrication ?","answers":["Un croquis coté avec unités","Un schéma fonctionnel sans dimension","Une photographie sans échelle","Un graphe de relations"],"correctIndex":0,"explanation":"Un croquis coté transmet les dimensions utiles à la fabrication."},
-      {"question":"Quelle information aide à interpréter une mesure numérique ?","answers":["La grandeur mesurée, sa valeur, son unité et le contexte utile","La valeur seule dans tous les cas","La couleur du fichier","Le nom de l’auteur uniquement"],"correctIndex":0,"explanation":"La valeur seule peut être ambiguë sans grandeur et unité."},
-      {"question":"Quel est le rôle du DNS ?","answers":["Associer un nom de domaine à une information d’adressage, souvent une adresse IP","Choisir le chemin de chaque paquet entre réseaux","Mettre en forme une page Web","Fournir une connexion Wi‑Fi"],"correctIndex":0,"explanation":"Le DNS résout des noms ; le routage et l’accès réseau ont d’autres rôles."},
-      {"question":"Quel rôle correspond au routage ?","answers":["Déterminer un chemin d’acheminement entre réseaux","Associer les noms de domaine aux adresses","Afficher le contenu d’une page","Mesurer le débit d’un capteur"],"correctIndex":0,"explanation":"Le routage concerne l’acheminement des paquets entre réseaux."},
-      {"question":"Comment évaluer une réponse générée par un outil d’IA ?","answers":["Vérifier ses sources, son contexte et ses limites","La tenir pour vraie si elle est fluide","La valider selon sa longueur","Ignorer les données utilisées"],"correctIndex":0,"explanation":"Une réponse plausible peut être erronée ou manquer de contexte."},
-      {"question":"Que doit présenter une soutenance de projet technique ?","answers":["Le besoin, les choix, les tests, les limites et les améliorations","Le prototype seul sans explication","Le prix sans résultats","Une conclusion sans critères"],"correctIndex":0,"explanation":"Une présentation argumentée relie besoin, décisions et preuves."}
+      {
+        "question": "Pour comparer deux systèmes répondant au même besoin, quelle démarche est la plus complète ?",
+        "answers": [
+          "Examiner service rendu, performances, coût, impacts et durée d’usage",
+          "Comparer uniquement l’apparence",
+          "Choisir le plus récent sans essai",
+          "Comparer seulement le prix initial"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le choix technique s’appuie sur plusieurs critères liés au besoin et aux contraintes."
+      },
+      {
+        "question": "Dans un modèle fonctionnel, que décrit une fonction de service ?",
+        "answers": [
+          "Le service attendu par l’utilisateur ou le système",
+          "Le composant choisi uniquement",
+          "Une dimension de fabrication",
+          "Une valeur de capteur sans contexte"
+        ],
+        "correctIndex": 0,
+        "explanation": "La fonction exprime le service ; une solution technique indique comment le réaliser."
+      },
+      {
+        "question": "Dans un tableau de données, que représente généralement une ligne (hors en-tête) ?",
+        "answers": [
+          "Une observation décrite par des champs",
+          "Une unité valable pour toutes les colonnes",
+          "Un programme complet",
+          "Un équipement réseau"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une table organise les observations en lignes et les attributs en colonnes."
+      },
+      {
+        "question": "Pourquoi tester un programme sur plusieurs cas ?",
+        "answers": [
+          "Pour vérifier le cas courant, les limites et les situations inattendues",
+          "Pour ne conserver que le résultat attendu",
+          "Pour éviter de consigner les entrées",
+          "Pour supprimer les erreurs sans les comprendre"
+        ],
+        "correctIndex": 0,
+        "explanation": "Des cas variés aident à détecter des défauts invisibles dans un seul essai."
+      },
+      {
+        "question": "Quel dessin communique le mieux les dimensions d’une pièce avant fabrication ?",
+        "answers": [
+          "Un croquis coté avec unités",
+          "Un schéma fonctionnel sans dimension",
+          "Une photographie sans échelle",
+          "Un graphe de relations"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un croquis coté transmet les dimensions utiles à la fabrication."
+      },
+      {
+        "question": "Quelle information aide à interpréter une mesure numérique ?",
+        "answers": [
+          "La grandeur mesurée, sa valeur, son unité et le contexte utile",
+          "La valeur seule dans tous les cas",
+          "La couleur du fichier",
+          "Le nom de l’auteur uniquement"
+        ],
+        "correctIndex": 0,
+        "explanation": "La valeur seule peut être ambiguë sans grandeur et unité."
+      },
+      {
+        "question": "Quel est le rôle du DNS ?",
+        "answers": [
+          "Associer un nom de domaine à une information d’adressage, souvent une adresse IP",
+          "Choisir le chemin de chaque paquet entre réseaux",
+          "Mettre en forme une page Web",
+          "Fournir une connexion Wi‑Fi"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le DNS résout des noms ; le routage et l’accès réseau ont d’autres rôles."
+      },
+      {
+        "question": "Quel rôle correspond au routage ?",
+        "answers": [
+          "Déterminer un chemin d’acheminement entre réseaux",
+          "Associer les noms de domaine aux adresses",
+          "Afficher le contenu d’une page",
+          "Mesurer le débit d’un capteur"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le routage concerne l’acheminement des paquets entre réseaux."
+      },
+      {
+        "question": "Comment évaluer une réponse générée par un outil d’IA ?",
+        "answers": [
+          "Vérifier ses sources, son contexte et ses limites",
+          "La tenir pour vraie si elle est fluide",
+          "La valider selon sa longueur",
+          "Ignorer les données utilisées"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une réponse plausible peut être erronée ou manquer de contexte."
+      },
+      {
+        "question": "Que doit présenter une soutenance de projet technique ?",
+        "answers": [
+          "Le besoin, les choix, les tests, les limites et les améliorations",
+          "Le prototype seul sans explication",
+          "Le prix sans résultats",
+          "Une conclusion sans critères"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une présentation argumentée relie besoin, décisions et preuves."
+      },
+      {
+        "question": "Le cahier des charges d’un support indique « porter un sac de 5 kg ». L’équipe retient deux bras en aluminium. Quelle association est correcte ?",
+        "answers": [
+          "Porter 5 kg est une exigence; les deux bras en aluminium sont une solution technique",
+          "Porter 5 kg est une solution technique; les deux bras en aluminium sont une exigence",
+          "Les deux éléments sont des exigences; aucune solution technique n’est indiquée",
+          "Les deux éléments sont des solutions techniques; aucune exigence n’est indiquée"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’exigence décrit le résultat attendu; la solution technique est le moyen retenu pour y répondre.",
+        "id": "3e-11",
+        "theme": "exigences et solutions",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, BO n° 9 du 29/02/2024, pp. 12–13 (solutions en réponse à un besoin et à des exigences; critères); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A"
+        ]
+      },
+      {
+        "question": "Dans un système technique, à quoi sert de relier les fonctions aux solutions ou constituants qui les réalisent ?",
+        "answers": [
+          "À repérer les choix techniques qui assurent chaque fonction et comprendre comment ils s’articulent",
+          "À décrire seulement l’apparence sans expliquer le fonctionnement",
+          "À conclure que chaque fonction exige un seul type de matériau",
+          "À éviter de vérifier si le système répond au besoin"
+        ],
+        "correctIndex": 0,
+        "explanation": "Relier fonctions et constituants explique l’organisation du système et la manière dont il répond au besoin.",
+        "id": "3e-12",
+        "theme": "analyse fonctionnelle",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, BO n° 9 du 29/02/2024, pp. 7 et 12 (relations entre fonctions et constituants; solution associée à une fonction technique); progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A"
+        ]
+      },
+      {
+        "question": "Dans un réseau local, quel équipement relie des appareils et utilise leurs adresses MAC pour acheminer les données au destinataire ?",
+        "answers": [
+          "Un commutateur (switch)",
+          "Un routeur, qui relie des réseaux différents",
+          "Un point d’accès, qui fournit une liaison sans fil",
+          "Un modem, qui assure la liaison avec le fournisseur d’accès"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le commutateur connecte des appareils d’un même LAN et utilise leurs adresses MAC pour acheminer les paquets; le routeur relie des réseaux en utilisant les adresses IP.",
+        "id": "3e-17",
+        "theme": "réseaux locaux",
+        "status": "Relue par Hermes; Programme de technologie du cycle 4, BO n° 9 du 29/02/2024, p. 9 (commutateurs dans un réseau local); Cisco, « What Is Network Switching? » (un switch connecte des appareils au sein d’un LAN et utilise les adresses MAC pour acheminer les paquets), consulté via Jina Reader; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A",
+          "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-switching.html"
+        ]
+      },
+      {
+        "question": "Quel service TCP fournit-il aux applications selon le RFC 9293 ?",
+        "answers": [
+          "Un flux d’octets fiable et remis dans l’ordre",
+          "Le chiffrement automatique du contenu",
+          "La résolution des noms de domaine en adresses IP",
+          "L’attribution automatique d’une adresse IP à l’appareil"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le RFC décrit TCP comme un service de flux d’octets fiable et ordonné; chiffrement, DNS et attribution d’adresse relèvent d’autres mécanismes.",
+        "id": "3e-18",
+        "theme": "protocoles réseau",
+        "status": "Relue par Hermes; RFC 9293, § 2.2 (TCP fournit aux applications un flux d’octets fiable et remis dans l’ordre); texte consulté directement sur rfc-editor.org; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.rfc-editor.org/rfc/rfc9293.txt"
+        ]
+      },
+      {
+        "question": "Dans le tableau JSON [12, 18, 25], quel caractère sépare les éléments successifs ?",
+        "answers": [
+          "Une virgule",
+          "Un deux-points",
+          "Un point-virgule",
+          "Une barre verticale"
+        ],
+        "correctIndex": 0,
+        "explanation": "La grammaire de JSON utilise une virgule comme séparateur entre les valeurs d’un tableau.",
+        "id": "3e-20",
+        "theme": "JSON",
+        "status": "Relue par Hermes; RFC 8259, § 5 (les éléments d’un tableau JSON sont séparés par des virgules); texte consulté directement sur rfc-editor.org; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.rfc-editor.org/rfc/rfc8259.txt"
+        ]
+      },
+      {
+        "question": "Une IA de reconnaissance a été entraînée avec très peu d’images d’un groupe de personnes. Quel risque cette sous-représentation peut-elle créer ?",
+        "answers": [
+          "Le système peut être moins fiable pour ces cas et produire davantage d’erreurs ou de biais",
+          "Le système compense toujours automatiquement le manque d’exemples et garantit les mêmes performances",
+          "La représentation des groupes ne peut influencer que la couleur de l’interface",
+          "Un grand nombre total d’images suffit toujours à éliminer tout biais"
+        ],
+        "correctIndex": 0,
+        "explanation": "La CNIL indique que la représentativité et la qualité des données d’entraînement influencent les sorties et que des données biaisées peuvent créer des risques d’erreur ou de discrimination.",
+        "id": "3e-24",
+        "theme": "IA et représentativité des données",
+        "status": "Relue par Hermes; CNIL, guide « Collecter et qualifier les données d’entraînement », sections qualité des sorties, représentativité et biais; page consultée directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.cnil.fr/fr/intelligence-artificielle/guide/collecter-et-qualifier-les-donnees-dentrainement"
+        ]
+      },
+      {
+        "question": "Un ordinateur fonctionne encore et répond au besoin. Pourquoi prolonger sa durée d’usage peut-il réduire son impact environnemental ?",
+        "answers": [
+          "Cela peut retarder la fabrication d’un appareil de remplacement, dont la production mobilise des ressources et génère des impacts",
+          "Cela ne change rien aux impacts de fabrication, puisqu’ils ont déjà eu lieu",
+          "Cela réduit automatiquement la consommation électrique annuelle de l’ordinateur",
+          "Cela garantit qu’aucun nouvel équipement ne sera fabriqué par le producteur"
+        ],
+        "correctIndex": 0,
+        "explanation": "Prolonger l’usage peut éviter ou retarder un remplacement; la fabrication d’équipements mobilise notamment des ressources et contribue aux impacts environnementaux.",
+        "id": "3e-25",
+        "theme": "durée d’usage et impact environnemental",
+        "status": "Relue par Hermes; DINUM, « 1. Allonger la durée de vie du matériel », transcription de la page (mise à jour le 23/11/2021): fabrication ordinateur 212–296 kg éq. CO₂; gains indiqués de −65 kg après 3 ans de durée de vie supplémentaire; transcription consultée directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://ecoresponsable.numerique.gouv.fr/publications/impact-bonnes-pratiques/bonne-pratique-1-allonger-duree-vie-materiel/"
+        ]
+      },
+      {
+        "question": "Un courriel se fait passer pour la banque et demande le mot de passe de l’utilisateur. Quel risque cela signale-t-il ?",
+        "answers": [
+          "Une tentative d’hameçonnage visant à obtenir des informations en usurpant un tiers de confiance",
+          "Une procédure normale, car une banque doit demander un mot de passe par courriel",
+          "Un simple message publicitaire sans collecte de données",
+          "Un test de sauvegarde local"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’hameçonnage usurpe l’identité d’un tiers de confiance pour inciter la victime à communiquer des données personnelles ou bancaires.",
+        "id": "3e-34",
+        "theme": "hameçonnage",
+        "status": "Relue par Hermes; Cybermalveillance.gouv.fr, « Que faire en cas de phishing ou hameçonnage ? » (définition : message frauduleux se faisant passer pour un tiers de confiance afin d’obtenir des données personnelles ou bancaires); page consultée directement, mise à jour le 26/10/2026; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/hameconnage-phishing"
+        ]
+      },
+      {
+        "question": "Après avoir copié des fichiers sur un disque externe, pourquoi le déconnecter de l’ordinateur et du réseau ?",
+        "answers": [
+          "Pour réduire le risque qu’un rançongiciel touchant les appareils connectés chiffre aussi la sauvegarde",
+          "Pour rendre la copie accessible à tous les programmes du réseau",
+          "Pour augmenter la taille des fichiers sauvegardés",
+          "Pour supprimer la nécessité de vérifier la sauvegarde"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une sauvegarde encore connectée peut être touchée par le même rançongiciel; Cybermalveillance recommande de déconnecter le support après usage.",
+        "id": "3e-35",
+        "theme": "sauvegarde",
+        "status": "Relue par Hermes; Cybermalveillance.gouv.fr, « Pourquoi et comment bien gérer ses sauvegardes ? », section 6 (déconnecter le support; un rançongiciel peut aussi atteindre une sauvegarde restée connectée); page consultée directement, mise à jour le 14/09/2026; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/sauvegardes"
+        ]
+      },
+      {
+        "question": "Un service vérifie l’identité d’un utilisateur puis décide quels fichiers il peut lire. Quelle distinction est correcte ?",
+        "answers": [
+          "L’authentification vérifie l’identité; l’autorisation définit les accès accordés",
+          "L’authentification définit les accès; l’autorisation vérifie l’identité",
+          "Les deux opérations consistent à chiffrer les fichiers",
+          "L’authentification règle l’affichage; l’autorisation compresse les données"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’authentification établit l’identité; l’autorisation détermine ensuite les ressources auxquelles cette identité peut accéder.",
+        "id": "3e-36",
+        "theme": "authentification et autorisation",
+        "status": "Relue par Hermes; NIST CSRC Glossary, définitions « Authentication » (vérifier l’identité) et « Authorization » (droits d’accès accordés); deux pages consultées directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://csrc.nist.gov/glossary/term/authentication",
+          "https://csrc.nist.gov/glossary/term/authorization"
+        ]
+      },
+      {
+        "question": "Quelle différence distingue une compression avec perte d’une compression sans perte ?",
+        "answers": [
+          "Avec perte, des informations sont supprimées et l’original ne peut être reconstruit exactement; sans perte, les données originales sont récupérables",
+          "Sans perte, des informations sont supprimées définitivement; avec perte, l’original est toujours récupérable",
+          "Les deux méthodes reconstruisent toujours exactement l’original",
+          "La compression avec perte augmente nécessairement la résolution de l’image"
+        ],
+        "correctIndex": 0,
+        "explanation": "La compression sans perte permet de reconstruire exactement les données; une compression avec perte écarte des informations et n’est pas réversible.",
+        "id": "3e-38",
+        "theme": "compression de données",
+        "status": "Relue par Hermes; MDN Glossary, « Lossy compression » et « Lossless compression » (suppression irréversible de données vs reconstruction exacte); deux pages consultées directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Glossary/Lossy_compression",
+          "https://developer.mozilla.org/en-US/docs/Glossary/Lossless_compression"
+        ]
+      },
+      {
+        "question": "Sur un dessin de fabrication, que signifie la tolérance indiquée à côté d’une dimension ?",
+        "answers": [
+          "La variation admissible autour de la dimension nominale, dans les limites spécifiées",
+          "La mesure exacte que la pièce doit atteindre sans aucun écart possible",
+          "La durée maximale d’usinage de la pièce",
+          "La quantité minimale de matière à utiliser"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une tolérance précise l’écart dimensionnel permis tout en permettant à la pièce de fonctionner correctement; le document Éduscol demande de contrôler les dimensions en la respectant.",
+        "id": "3e-41",
+        "theme": "tolérance dimensionnelle",
+        "status": "Relue par Hermes; NJIT, ME 215 Module 3, p. 5 (tolérance = variation dimensionnelle admissible); Éduscol, « Séquence 1 – Réparation d’un panier de basket de bureau », p. 7 (contrôle des dimensions et angles en respectant les tolérances); contenus consultés directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://mie.njit.edu/sites/mie/files/lcms/docs/me215_module3-revd.pdf",
+          "https://eduscol.education.fr/document/66668/download"
+        ]
+      },
+      {
+        "question": "Avant de fabriquer un prototype en atelier, à quoi sert une analyse des risques ?",
+        "answers": [
+          "À repérer, analyser et classer les risques pour choisir des mesures de prévention adaptées",
+          "À identifier un danger mais ignorer sa gravité et les moyens de prévention",
+          "À choisir une protection avant d’avoir déterminé le risque auquel elle répond",
+          "À noter seulement les incidents après le travail, sans planifier de prévention"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’évaluation des risques sert à les identifier, les analyser et les classer afin de choisir des actions de prévention appropriées.",
+        "id": "3e-42",
+        "theme": "analyse des risques",
+        "status": "Relue par Hermes; INRS, « Évaluation des risques professionnels : de quoi parle-t-on ? » (identifier, analyser et classer les risques pour définir des actions de prévention), page mise à jour le 17/10/2023; programme de technologie du cycle 4, BO n° 9, p. 10 (règles de sécurité en atelier); consultés directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.inrs.fr/demarche/evaluation-risques-professionnels/ce-qu-il-faut-retenir.html",
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A"
+        ]
+      },
+      {
+        "question": "Une fonction qui calcule un total est testée séparément avec des entrées choisies avant son intégration au programme. Quel est l’objectif principal de ce test unitaire ?",
+        "answers": [
+          "Vérifier le comportement de cette fonction isolément dans des cas définis",
+          "Vérifier les échanges entre plusieurs modules déjà intégrés",
+          "Mesurer le nombre maximal d’utilisateurs simultanés du service",
+          "Confirmer que l’application complète répond aux attentes de l’utilisateur final"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un test unitaire cible un composant isolé afin de confirmer son fonctionnement avant son intégration avec le reste du programme.",
+        "id": "3e-46",
+        "theme": "test logiciel",
+        "status": "Relue par Hermes; IBM Think, « What is unit testing? » (test d’un composant isolé avant intégration); page consultée directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.ibm.com/think/topics/unit-testing"
+        ]
+      },
+      {
+        "question": "Dans une boucle qui répète des mesures, que fait la condition de continuation ?",
+        "answers": [
+          "Elle décide si une nouvelle répétition a lieu; la boucle s’arrête lorsque la condition devient fausse",
+          "Elle garantit à elle seule la précision du capteur",
+          "Elle convertit automatiquement toutes les mesures dans la même unité",
+          "Elle remplace la variable qui mémorise le nombre de mesures"
+        ],
+        "correctIndex": 0,
+        "explanation": "La condition contrôle la répétition; si elle devient fausse, la boucle se termine.",
+        "id": "3e-48",
+        "theme": "boucles et condition d’arrêt",
+        "status": "Relue par Hermes; MDN, « Loops and iteration », une boucle for se répète tant que sa condition est vraie et se termine lorsqu’elle devient fausse; programme de technologie du cycle 4, BO n° 9, pp. 12–13 (instructions itératives); pages consultées directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
+          "https://www.education.gouv.fr/bo/2024/Hebdo9/MENE2402802A"
+        ]
+      },
+      {
+        "question": "Deux engrenages transmettent la rotation d’un axe à un autre. Quel effet peut avoir leur rapport de transmission ?",
+        "answers": [
+          "Modifier la vitesse de rotation et le couple transmis entre l’entrée et la sortie",
+          "Modifier la couleur des pièces sans changer leur mouvement",
+          "Convertir automatiquement une adresse IP en nom de domaine",
+          "Supprimer tout besoin de vérifier l’assemblage"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un engrenage peut transmettre une puissance en rotation et modifier vitesse et couple selon son rapport.",
+        "id": "3e-57",
+        "theme": "transmission mécanique",
+        "status": "Relue par Hermes; éduscol STI, « Engrenages, conditions d’engrènement et procédés d’obtention », section 1 (« Rôle d’un engrenage »): transmission de puissance, modification du couple et de la vitesse dans un rapport précis; passage consulté via le résultat indexé, page directe HTTP 503; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://sti.eduscol.education.fr/si-ens-paris-saclay/ressources_pedagogiques/engrenages-conditions-dengrenement-et-procedes-dobtention",
+          "https://sti.eduscol.education.fr/sites/eduscol.education.fr.sti/files/ressources/pedagogiques/9159/9159-engrenages-conditions-dengrenement-et-procedes-dobtention-ensps.pdf"
+        ]
+      },
+      {
+        "question": "Quel principe distingue la fabrication additive d’un procédé qui enlève de la matière ?",
+        "answers": [
+          "La pièce est obtenue par ajout successif de matière pour former une géométrie tridimensionnelle",
+          "La pièce est toujours usinée en retirant de la matière d’un bloc",
+          "Le procédé consiste uniquement à assembler des pièces déjà fabriquées",
+          "Le procédé modifie un fichier sans produire de pièce physique"
+        ],
+        "correctIndex": 0,
+        "explanation": "ISO/ASTM 52900:2021 décrit la fabrication additive comme la construction de géométries 3D par ajout successif de matière.",
+        "id": "3e-60",
+        "theme": "fabrication additive",
+        "status": "Relue par Hermes; ISO/ASTM 52900:2021, résumé officiel (construction de géométries 3D par ajout successif de matière); édition 2015 fournie dans la proposition retirée car remplacée et marquée retirée; résumé 2021 consulté via index ISO; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.iso.org/standard/74514.html"
+        ]
+      },
+      {
+        "question": "Que peut contenir une norme internationale selon la description de l’ISO ?",
+        "answers": [
+          "Des règles, lignes directrices ou caractéristiques concernant des activités ou leurs résultats",
+          "Une garantie que tout produit conforme est le moins cher",
+          "Une obligation d’utiliser une même couleur dans tous les pays",
+          "Un remplacement systématique des essais et contrôles"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’ISO décrit une norme internationale comme fournissant des règles, lignes directrices ou caractéristiques pour des activités ou leurs résultats.",
+        "id": "3e-66",
+        "theme": "normalisation",
+        "status": "Relue par Hermes; ISO, « Deliverables » (définition d’une norme internationale : règles, lignes directrices ou caractéristiques pour des activités ou leurs résultats); résumé officiel consulté via index ISO; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.iso.org/deliverables-all.html"
+        ]
+      },
+      {
+        "question": "Dans une interface, comment signaler une erreur si la couleur rouge est utilisée ?",
+        "answers": [
+          "Ajouter aussi un texte ou un symbole afin que l’information ne repose pas uniquement sur la couleur",
+          "Utiliser uniquement une nuance de rouge plus vive",
+          "Supprimer le message et conserver seulement la couleur",
+          "Remplacer toutes les alertes par la même couleur sans autre indication"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le critère WCAG 2.2, 1.4.1, demande de ne pas utiliser la couleur comme seul moyen visuel de transmettre une information ou distinguer un élément.",
+        "id": "3e-68",
+        "theme": "accessibilité interface",
+        "status": "Relue par Hermes; W3C WAI, Understanding WCAG 2.2 SC 1.4.1, « Use of Color », passages Success Criterion/Intent (information visuelle ne reposant pas sur la couleur seule; utiliser aussi texte ou forme); passage consulté directement via Jina Reader; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.w3.org/TR/WCAG22/#use-of-color"
+        ]
+      },
+      {
+        "question": "Une application possède un module de connexion et un module de profil. Que vérifie un test d’intégration entre eux ?",
+        "answers": [
+          "Que les deux modules échangent correctement les informations attendues lorsqu’ils fonctionnent ensemble",
+          "Que chaque fonction de chaque module fonctionne isolément, sans interaction avec l’autre",
+          "Que l’application utilise le langage de programmation le plus récent",
+          "Que l’écran d’accueil a exactement la même apparence sur tous les appareils"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un test d’intégration examine les interactions entre composants assemblés, et non un composant complètement isolé.",
+        "id": "3e-69",
+        "theme": "test d’intégration",
+        "status": "Relue par Hermes; IBM Think, « What is Integration Testing? », définition (« components or modules are joined and tested to evaluate how well they work together »); page consultée directement; distracteurs revus pour rester dans le domaine du test logiciel.",
+        "sources": [
+          "https://www.ibm.com/think/topics/integration-testing"
+        ]
+      },
+      {
+        "question": "Un thermomètre affiche une valeur. À quoi sert son étalonnage, réalisé en le comparant à des références connues ?",
+        "answers": [
+          "À établir la relation entre ses indications et les valeurs de référence afin d’interpréter ses mesures",
+          "À régler automatiquement la température de la pièce",
+          "À garantir que toute mesure future est exacte sans incertitude",
+          "À augmenter la plage de température que le capteur peut mesurer"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le VIM définit l’étalonnage comme l’établissement, sous conditions spécifiées, d’une relation entre les valeurs de référence d’étalons et les indications de l’instrument. L’étalonnage ne doit pas être confondu avec un réglage.",
+        "id": "3e-51",
+        "theme": "étalonnage d’un instrument",
+        "status": "Relue par Hermes; BIPM/JCGM, VIM3 §2.39 « calibration » (établir, dans des conditions spécifiées, une relation entre les valeurs de référence fournies par des étalons et les indications de l’instrument, puis utiliser cette relation pour obtenir un résultat de mesure); définition lue directement sur la page VIM; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://jcgm.bipm.org/vim/en/2.39.html"
+        ]
+      },
+      {
+        "question": "Que signifie le code HTTP 503 ?",
+        "answers": [
+          "Le serveur n’est temporairement pas prêt à traiter la demande",
+          "La ressource n’existe définitivement plus",
+          "Le client a envoyé une requête syntaxiquement invalide",
+          "La réponse est toujours mise en cache"
+        ],
+        "correctIndex": 0,
+        "explanation": "MDN associe 503 à un serveur temporairement indisponible, notamment en maintenance ou surcharge.",
+        "id": "3e-72",
+        "theme": "HTTP",
+        "status": "Relue par Hermes; MDN, HTTP response status codes, section 503 Service Unavailable; consulté directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/503"
+        ]
+      },
+      {
+        "question": "À quoi sert principalement le code HTTP 304 ?",
+        "answers": [
+          "Indiquer qu’une ressource n’a pas été modifiée afin d’utiliser une copie en cache",
+          "Signaler une erreur interne du serveur",
+          "Indiquer que l’utilisateur n’est pas authentifié",
+          "Créer une ressource sur le serveur"
+        ],
+        "correctIndex": 0,
+        "explanation": "MDN présente 304 comme un code utilisé pour la mise en cache lorsque la ressource n’a pas changé.",
+        "id": "3e-73",
+        "theme": "HTTP",
+        "status": "Relue par Hermes; MDN, HTTP response status codes, section 304 Not Modified; consulté directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/304"
+        ]
+      },
+      {
+        "question": "Dans le modèle d’exécution JavaScript décrit par MDN, que fait la file de tâches ?",
+        "answers": [
+          "Elle met en attente des travaux qui seront exécutés lorsque l’agent les retire de la file",
+          "Elle stocke uniquement les images téléchargées",
+          "Elle remplace la pile d’exécution",
+          "Elle garantit l’exécution simultanée de toutes les fonctions"
+        ],
+        "correctIndex": 0,
+        "explanation": "MDN décrit une file de travaux et le retrait d’un travail pour exécution; JavaScript n’exécute pas toutes les tâches simultanément dans un même agent.",
+        "id": "3e-74",
+        "theme": "JavaScript événementiel",
+        "status": "Relue par Hermes; MDN, JavaScript execution model, section Job queue and event loop; consulté directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model#job_queue_and_event_loop"
+        ]
+      },
+      {
+        "question": "Que se passe-t-il lorsqu’un travail JavaScript est exécuté jusqu’à son terme ?",
+        "answers": [
+          "Il s’achève avant qu’un autre travail soit exécuté dans le même agent",
+          "Il est forcément interrompu après chaque instruction",
+          "Il est exécuté deux fois",
+          "Il bloque définitivement la file"
+        ],
+        "correctIndex": 0,
+        "explanation": "MDN appelle ce principe run-to-completion : chaque travail est traité entièrement avant le suivant.",
+        "id": "3e-75",
+        "theme": "JavaScript événementiel",
+        "status": "Relue par Hermes; MDN, JavaScript execution model, section Run-to-completion; consulté directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model#run-to-completion"
+        ]
+      },
+      {
+        "question": "Dans une itération de boucle d’événements du navigateur, que sont les microtâches ?",
+        "answers": [
+          "Des travaux traités après la tâche courante et avant la tâche suivante",
+          "Des fichiers image qui remplacent le HTML",
+          "Des fonctions exécutées uniquement sur un autre ordinateur",
+          "Des erreurs qui annulent toujours la page"
+        ],
+        "correctIndex": 0,
+        "explanation": "MDN indique que les microtâches en attente sont traitées après la tâche puis avant la tâche suivante.",
+        "id": "3e-76",
+        "theme": "JavaScript événementiel",
+        "status": "Relue par Hermes; MDN, In depth: Microtasks and the JavaScript runtime environment, section Tasks vs. microtasks; consulté directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide/In_depth#tasks_vs._microtasks"
+        ]
+      },
+      {
+        "question": "Que demande le principe WCAG 2.1 Keyboard Accessible ?",
+        "answers": [
+          "Rendre toutes les fonctionnalités utilisables au clavier",
+          "Interdire toute utilisation de la souris",
+          "Masquer les commandes aux lecteurs d’écran",
+          "Remplacer les textes par des couleurs"
+        ],
+        "correctIndex": 0,
+        "explanation": "La page W3C précise que toute fonctionnalité doit être disponible depuis une interface clavier.",
+        "id": "3e-77",
+        "theme": "accessibilité",
+        "status": "Relue par Hermes; W3C WAI, WCAG 2.2 Understanding Guideline 2.1: Keyboard Accessible; consulté directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/keyboard-accessible"
+        ]
+      },
+      {
+        "question": "Que doit faire le nom accessible d’un bouton pour les utilisateurs qui le commandent à la voix ?",
+        "answers": [
+          "Indiquer sa fonction et le distinguer d’autres éléments pour les technologies d’assistance",
+          "Définir sa tension électrique",
+          "Remplacer toutes les instructions de la page",
+          "Empêcher son utilisation au clavier"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le critère WCAG 2.5.3 exige que le nom programmatique contienne le texte présenté visuellement, afin que les utilisateurs puissent l’appeler par ce libellé.",
+        "id": "3e-81",
+        "theme": "accessibilité",
+        "status": "Relue par Hermes; W3C WAI, WCAG 2.2 Understanding SC 2.5.3 Label in Name, Success Criterion/Intent; consulté directement; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name"
+        ]
+      },
+      {
+        "question": "Selon le guide d’accompagnement du programme de technologie cycle 4 publié en 2024, combien de blocs de compétences sont annoncés ?",
+        "answers": [
+          "Trois blocs de trois compétences",
+          "Un seul bloc de dix compétences",
+          "Deux blocs de cinq compétences",
+          "Neuf blocs d’une compétence"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le guide indique que le programme 2024 propose trois blocs de trois compétences, soit neuf compétences.",
+        "id": "3e-82",
+        "theme": "programme de technologie",
+        "status": "Relue par Hermes; Ministère de l’Éducation nationale, Guide d’accompagnement du programme de technologie publié en février 2024, p. 7, section 3.2; PDF consulté directement via URL alternative; progression locale non preuve d’enseignement.",
+        "sources": [
+          "https://eduscol.education.gouv.fr/sites/default/files/document/guide-daccompagnement-du-programme-de-technologie-mai-2024pdf-106860.pdf"
+        ]
+      }
     ],
     "2nde": [
-      {"question":"Quel énoncé distingue correctement Internet et le Web ?","answers":["Internet est un réseau ; le Web est un service qui l’utilise","Internet et le Web sont deux noms identiques","Le Web est le câble reliant deux ordinateurs","Internet est une page consultée par un navigateur"],"correctIndex":0,"explanation":"Le Web fonctionne sur Internet, comme d’autres services."},
-      {"question":"Quel rôle correspond à une adresse IP ?","answers":["Identifier une interface réseau pour permettre les échanges","Décrire le contenu complet d’une page","Chiffrer automatiquement toutes les données","Nommer un fichier sur l’ordinateur"],"correctIndex":0,"explanation":"Une adresse IP sert à l’identification et à l’acheminement dans un réseau."},
-      {"question":"Quelle association est correcte ?","answers":["DNS associe un nom à une adresse ; le routeur achemine des paquets","DNS met en forme une page ; le routeur stocke les images","URL mesure le débit ; DNS chiffre les fichiers","Le navigateur choisit seul les adresses physiques"],"correctIndex":0,"explanation":"DNS et routage sont deux fonctions différentes."},
-      {"question":"Dans une page Web, quelle association est correcte ?","answers":["HTML structure, CSS présente, JavaScript peut ajouter des interactions","CSS résout les noms ; HTML route les paquets","JavaScript remplace toujours le serveur","HTML chiffre la connexion réseau"],"correctIndex":0,"explanation":"Ces langages ont des rôles différents dans la page."},
-      {"question":"À quoi sert une URL ?","answers":["À désigner/localiser une ressource selon une syntaxe","À remplacer le DNS dans tous les échanges","À chiffrer le contenu d’une page","À indiquer nécessairement l’adresse physique du serveur"],"correctIndex":0,"explanation":"Une URL identifie une ressource et son emplacement logique."},
-      {"question":"Que peut faire un cookie ?","answers":["Le navigateur peut conserver puis renvoyer une donnée associée à un site selon son fonctionnement","Il traduit toujours un nom en adresse IP","Il chiffre nécessairement tout le trafic","Il est toujours une image téléchargée"],"correctIndex":0,"explanation":"Les cookies peuvent servir à différents usages ; leur traitement dépend du contexte et des réglages."},
-      {"question":"Dans un graphe orienté d’abonnements, que signifie une flèche A → B si la convention est « suit » ?","answers":["A suit B ; la relation n’implique pas forcément que B suit A","A et B se suivent nécessairement","A envoie toujours un message à B","A et B sont connectés par un câble"],"correctIndex":0,"explanation":"Une relation orientée a un sens défini par la convention du graphe."},
-      {"question":"Quelle opération sélectionne les enregistrements qui vérifient un critère ?","answers":["Un filtrage","Un tri, qui ne fait que réordonner","Un renommage de colonne","Une conversion d’unité"],"correctIndex":0,"explanation":"Un filtre conserve les lignes satisfaisant une condition."},
-      {"question":"Que faut-il pour interpréter des coordonnées géographiques ?","answers":["Un référentiel et la convention de coordonnées utilisée","Le seul nom du fichier","La résolution de l’écran uniquement","Une adresse DNS"],"correctIndex":0,"explanation":"Les valeurs doivent être interprétées dans un référentiel défini."},
-      {"question":"Que peut révéler une métadonnée EXIF d’une photographie ?","answers":["La date, l’appareil ou parfois une position GPS","Le contenu exact de tous les pixels uniquement","Le mot de passe du compte dans tous les cas","Le chemin de routage Internet"],"correctIndex":0,"explanation":"Les métadonnées peuvent contenir des informations utiles ou sensibles ; il faut les contrôler avant diffusion."},
-      {"question":"Quelle distinction entre transformation et compression d’image est correcte ?","answers":["Un recadrage modifie l’image ; une compression réduit la taille selon une méthode avec ou sans perte","Lire EXIF recadre toujours l’image","Toute compression ajoute une position GPS","Compression et recadrage sont synonymes"],"correctIndex":0,"explanation":"Transformation, métadonnées et compression sont des opérations distinctes."},
-      {"question":"Dans une chaîne d’objet connecté, quel rôle correspond au traitement ?","answers":["Appliquer une règle aux données mesurées et produire éventuellement une décision","Mesurer à la place de tout capteur","Présenter seulement l’écran","Acheminer nécessairement les paquets entre réseaux"],"correctIndex":0,"explanation":"Le traitement exploite les données ; acquisition, communication et interface sont des fonctions distinctes."},
-      {"question":"Avant de partager une information en ligne, quelle méthode aide à vérifier sa fiabilité ?","answers":["Retrouver l’origine, vérifier date et contexte, comparer des sources indépendantes","Compter les partages uniquement","Se fier au titre et à son accord personnel","Considérer une capture d’écran comme preuve suffisante"],"correctIndex":0,"explanation":"La popularité et la présentation ne suffisent pas à établir la fiabilité."},
-      {"question":"Quelle affirmation décrit une donnée personnelle ?","answers":["Elle concerne une personne identifiée ou identifiable, directement ou indirectement","Elle est toujours publiée sur un site officiel","Elle désigne seulement un mot de passe","Elle ne peut jamais être une image"],"correctIndex":0,"explanation":"Une donnée peut être personnelle si elle permet d’identifier quelqu’un dans son contexte."},
-      {"question":"Quel élément est important pour interpréter une trame de position (par exemple NMEA) ?","answers":["Le type de trame, le format des champs et l’indication de validité","La couleur de l’interface seulement","Le nom du point d’accès Wi‑Fi","La taille du navigateur"],"correctIndex":0,"explanation":"Une valeur ne s’interprète correctement qu’avec son format et ses champs."},
-      {"question":"Quel rôle correspond à une interface humain-machine (IHM) ?","answers":["Présenter des informations et permettre une interaction","Mesurer nécessairement toutes les grandeurs","Remplacer les données sources","Choisir toujours le chemin réseau"],"correctIndex":0,"explanation":"L’IHM organise l’échange entre une personne et un système."},
-      {"question":"Quel élément renforce la validation d’un projet numérique ?","answers":["Comparer les résultats des tests à des critères et expliciter les limites","Présenter seulement une interface soignée","Ne pas mentionner les sources de données","Conclure à partir d’un essai non décrit"],"correctIndex":0,"explanation":"La validation s’appuie sur des critères, des résultats et une démarche explicite."}
+      {
+        "question": "Quel énoncé distingue correctement Internet et le Web ?",
+        "answers": [
+          "Internet est un réseau ; le Web est un service qui l’utilise",
+          "Internet et le Web sont deux noms identiques",
+          "Le Web est le câble reliant deux ordinateurs",
+          "Internet est une page consultée par un navigateur"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le Web fonctionne sur Internet, comme d’autres services."
+      },
+      {
+        "question": "Quel rôle correspond à une adresse IP ?",
+        "answers": [
+          "Identifier une interface réseau pour permettre les échanges",
+          "Décrire le contenu complet d’une page",
+          "Chiffrer automatiquement toutes les données",
+          "Nommer un fichier sur l’ordinateur"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une adresse IP sert à l’identification et à l’acheminement dans un réseau."
+      },
+      {
+        "question": "Quelle association est correcte ?",
+        "answers": [
+          "DNS associe un nom à une adresse ; le routeur achemine des paquets",
+          "DNS met en forme une page ; le routeur stocke les images",
+          "URL mesure le débit ; DNS chiffre les fichiers",
+          "Le navigateur choisit seul les adresses physiques"
+        ],
+        "correctIndex": 0,
+        "explanation": "DNS et routage sont deux fonctions différentes."
+      },
+      {
+        "question": "Dans une page Web, quelle association est correcte ?",
+        "answers": [
+          "HTML structure, CSS présente, JavaScript peut ajouter des interactions",
+          "CSS résout les noms ; HTML route les paquets",
+          "JavaScript remplace toujours le serveur",
+          "HTML chiffre la connexion réseau"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ces langages ont des rôles différents dans la page."
+      },
+      {
+        "question": "À quoi sert une URL ?",
+        "answers": [
+          "À désigner/localiser une ressource selon une syntaxe",
+          "À remplacer le DNS dans tous les échanges",
+          "À chiffrer le contenu d’une page",
+          "À indiquer nécessairement l’adresse physique du serveur"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une URL identifie une ressource et son emplacement logique."
+      },
+      {
+        "question": "Que peut faire un cookie ?",
+        "answers": [
+          "Le navigateur peut conserver puis renvoyer une donnée associée à un site selon son fonctionnement",
+          "Il traduit toujours un nom en adresse IP",
+          "Il chiffre nécessairement tout le trafic",
+          "Il est toujours une image téléchargée"
+        ],
+        "correctIndex": 0,
+        "explanation": "Les cookies peuvent servir à différents usages ; leur traitement dépend du contexte et des réglages."
+      },
+      {
+        "question": "Dans un graphe orienté d’abonnements, que signifie une flèche A → B si la convention est « suit » ?",
+        "answers": [
+          "A suit B ; la relation n’implique pas forcément que B suit A",
+          "A et B se suivent nécessairement",
+          "A envoie toujours un message à B",
+          "A et B sont connectés par un câble"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une relation orientée a un sens défini par la convention du graphe."
+      },
+      {
+        "question": "Quelle opération sélectionne les enregistrements qui vérifient un critère ?",
+        "answers": [
+          "Un filtrage",
+          "Un tri, qui ne fait que réordonner",
+          "Un renommage de colonne",
+          "Une conversion d’unité"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un filtre conserve les lignes satisfaisant une condition."
+      },
+      {
+        "question": "Que faut-il pour interpréter des coordonnées géographiques ?",
+        "answers": [
+          "Un référentiel et la convention de coordonnées utilisée",
+          "Le seul nom du fichier",
+          "La résolution de l’écran uniquement",
+          "Une adresse DNS"
+        ],
+        "correctIndex": 0,
+        "explanation": "Les valeurs doivent être interprétées dans un référentiel défini."
+      },
+      {
+        "question": "Que peut révéler une métadonnée EXIF d’une photographie ?",
+        "answers": [
+          "La date, l’appareil ou parfois une position GPS",
+          "Le contenu exact de tous les pixels uniquement",
+          "Le mot de passe du compte dans tous les cas",
+          "Le chemin de routage Internet"
+        ],
+        "correctIndex": 0,
+        "explanation": "Les métadonnées peuvent contenir des informations utiles ou sensibles ; il faut les contrôler avant diffusion."
+      },
+      {
+        "question": "Quelle distinction entre transformation et compression d’image est correcte ?",
+        "answers": [
+          "Un recadrage modifie l’image ; une compression réduit la taille selon une méthode avec ou sans perte",
+          "Lire EXIF recadre toujours l’image",
+          "Toute compression ajoute une position GPS",
+          "Compression et recadrage sont synonymes"
+        ],
+        "correctIndex": 0,
+        "explanation": "Transformation, métadonnées et compression sont des opérations distinctes."
+      },
+      {
+        "question": "Dans une chaîne d’objet connecté, quel rôle correspond au traitement ?",
+        "answers": [
+          "Appliquer une règle aux données mesurées et produire éventuellement une décision",
+          "Mesurer à la place de tout capteur",
+          "Présenter seulement l’écran",
+          "Acheminer nécessairement les paquets entre réseaux"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le traitement exploite les données ; acquisition, communication et interface sont des fonctions distinctes."
+      },
+      {
+        "question": "Avant de partager une information en ligne, quelle méthode aide à vérifier sa fiabilité ?",
+        "answers": [
+          "Retrouver l’origine, vérifier date et contexte, comparer des sources indépendantes",
+          "Compter les partages uniquement",
+          "Se fier au titre et à son accord personnel",
+          "Considérer une capture d’écran comme preuve suffisante"
+        ],
+        "correctIndex": 0,
+        "explanation": "La popularité et la présentation ne suffisent pas à établir la fiabilité."
+      },
+      {
+        "question": "Quelle affirmation décrit une donnée personnelle ?",
+        "answers": [
+          "Elle concerne une personne identifiée ou identifiable, directement ou indirectement",
+          "Elle est toujours publiée sur un site officiel",
+          "Elle désigne seulement un mot de passe",
+          "Elle ne peut jamais être une image"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une donnée peut être personnelle si elle permet d’identifier quelqu’un dans son contexte."
+      },
+      {
+        "question": "Quel élément est important pour interpréter une trame de position (par exemple NMEA) ?",
+        "answers": [
+          "Le type de trame, le format des champs et l’indication de validité",
+          "La couleur de l’interface seulement",
+          "Le nom du point d’accès Wi‑Fi",
+          "La taille du navigateur"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une valeur ne s’interprète correctement qu’avec son format et ses champs."
+      },
+      {
+        "question": "Quel rôle correspond à une interface humain-machine (IHM) ?",
+        "answers": [
+          "Présenter des informations et permettre une interaction",
+          "Mesurer nécessairement toutes les grandeurs",
+          "Remplacer les données sources",
+          "Choisir toujours le chemin réseau"
+        ],
+        "correctIndex": 0,
+        "explanation": "L’IHM organise l’échange entre une personne et un système."
+      },
+      {
+        "question": "Quel élément renforce la validation d’un projet numérique ?",
+        "answers": [
+          "Comparer les résultats des tests à des critères et expliciter les limites",
+          "Présenter seulement une interface soignée",
+          "Ne pas mentionner les sources de données",
+          "Conclure à partir d’un essai non décrit"
+        ],
+        "correctIndex": 0,
+        "explanation": "La validation s’appuie sur des critères, des résultats et une démarche explicite."
+      },
+      {
+        "question": "Dans une interaction Web, quelle différence décrit correctement GET et POST ?",
+        "answers": [
+          "GET demande généralement une ressource; POST transmet généralement des données au serveur selon le traitement prévu",
+          "GET demande une ressource sans jamais transmettre de paramètres; POST chiffre toujours les données",
+          "GET est réservé aux pages HTML; POST est réservé aux images",
+          "GET modifie toujours une base; POST ne peut jamais modifier de données"
+        ],
+        "correctIndex": 0,
+        "explanation": "GET et POST ont des usages courants différents, mais le comportement exact dépend du service et de son traitement.",
+        "id": "SNT-64",
+        "theme": "HTTP méthodes",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.rfc-editor.org/rfc/rfc9110.html",
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Que signale généralement un code HTTP 404 ?",
+        "answers": [
+          "La ressource demandée n’a pas été trouvée à l’adresse indiquée",
+          "Le serveur a accepté une création de ressource",
+          "La requête a été redirigée vers une autre adresse",
+          "Le serveur a rencontré une erreur interne"
+        ],
+        "correctIndex": 0,
+        "explanation": "404 correspond classiquement à une ressource non trouvée; les autres choix correspondent à d’autres familles de réponses possibles.",
+        "id": "SNT-65",
+        "theme": "HTTP statuts",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.rfc-editor.org/rfc/rfc9110.html",
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Que fournit principalement HTTPS lorsque le certificat et la configuration sont valides ?",
+        "answers": [
+          "Une communication protégée par TLS avec authentification du serveur selon le certificat",
+          "Une garantie que le contenu publié est exact et impartial",
+          "Une compression sans perte de toutes les ressources",
+          "Une authentification certaine de chaque auteur de page"
+        ],
+        "correctIndex": 0,
+        "explanation": "HTTPS protège l’échange et permet d’authentifier le serveur; il ne garantit ni la qualité du contenu ni l’identité de chaque auteur.",
+        "id": "SNT-66",
+        "theme": "HTTPS",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.rfc-editor.org/rfc/rfc8446.html",
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Pourquoi un navigateur peut-il utiliser un cache ?",
+        "answers": [
+          "Pour réutiliser une ressource temporairement selon les règles de validité et éviter un transfert inutile",
+          "Pour modifier la version publiée sur le serveur sans l’accord du site",
+          "Pour conserver définitivement toutes les données saisies dans les formulaires",
+          "Pour remplacer la vérification de fraîcheur demandée par le serveur"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le cache accélère parfois l’affichage; sa réutilisation dépend de règles de validité et de mise à jour.",
+        "id": "SNT-67",
+        "theme": "cache Web",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.rfc-editor.org/rfc/rfc9111.html"
+        ]
+      },
+      {
+        "question": "Quelle pratique améliore l’accessibilité d’une image informative ?",
+        "answers": [
+          "Fournir un texte alternatif qui transmet l’information utile de l’image",
+          "Décrire l’image uniquement par sa couleur dominante",
+          "Réduire le contraste pour distinguer moins fortement les éléments",
+          "Ajouter une animation automatique à la place de toute description"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le texte alternatif rend l’information accessible lorsque l’image ne peut pas être perçue; d’autres critères d’accessibilité restent à examiner.",
+        "id": "SNT-68",
+        "theme": "accessibilité Web",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.w3.org/WAI/tutorials/images/informative"
+        ]
+      },
+      {
+        "question": "Pourquoi prévoir une conception adaptative pour une page Web ?",
+        "answers": [
+          "Pour ajuster la présentation à des tailles d’écran ou modes d’interaction différents",
+          "Pour garantir que le serveur est toujours disponible",
+          "Pour remplacer le besoin de structurer le contenu",
+          "Pour rendre identiques les données affichées à tous les utilisateurs"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une conception adaptative améliore l’affichage selon le contexte; elle ne garantit ni disponibilité du serveur ni identité des usages.",
+        "id": "SNT-69",
+        "theme": "conception adaptative",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
+        ]
+      },
+      {
+        "question": "Pourquoi valider une donnée saisie dans un formulaire ?",
+        "answers": [
+          "Pour vérifier qu’elle respecte le format ou les contraintes attendues avant traitement",
+          "Pour prouver à elle seule l’identité de l’utilisateur",
+          "Pour chiffrer automatiquement la base de données",
+          "Pour remplacer tous les contrôles réalisés côté serveur"
+        ],
+        "correctIndex": 0,
+        "explanation": "La validation vérifie la forme ou les contraintes; elle ne remplace ni authentification, ni chiffrement, ni contrôle côté serveur.",
+        "id": "SNT-70",
+        "theme": "validation de formulaire",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation"
+        ]
+      },
+      {
+        "question": "Que faut-il faire face à une valeur manquante dans une table ?",
+        "answers": [
+          "La signaler, rechercher sa signification et documenter la règle de traitement choisie",
+          "La remplacer par zéro car zéro signifie toujours absence de mesure",
+          "La supprimer pour obtenir automatiquement une table fiable",
+          "La remplacer par la moyenne sans examiner les conditions de collecte"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une absence peut avoir plusieurs causes; son traitement doit être explicite, justifié et traçable.",
+        "id": "SNT-71",
+        "theme": "qualité des données",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework-guidance",
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Dans une série de durées contenant quelques valeurs très grandes par rapport à la majorité, pourquoi peut-on préférer la médiane à la moyenne ?",
+        "answers": [
+          "La médiane est moins influencée par ces valeurs extrêmes que la moyenne",
+          "La médiane est toujours plus grande que la moyenne",
+          "La moyenne ne peut pas être calculée avec des valeurs très grandes",
+          "La médiane transforme automatiquement les durées en pourcentages"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dans une série comportant des valeurs extrêmes, la médiane décrit souvent mieux la position centrale que la moyenne, qui est davantage tirée par ces valeurs.",
+        "id": "SNT-72",
+        "theme": "statistiques",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm"
+        ]
+      },
+      {
+        "question": "Quel graphique convient généralement pour suivre l’évolution d’une grandeur au cours du temps ?",
+        "answers": [
+          "Un graphique en courbes avec le temps sur un axe et une unité indiquée",
+          "Un diagramme circulaire qui ne conserve pas l’ordre des dates",
+          "Un histogramme dont les classes temporelles ne sont pas définies",
+          "Une liste de valeurs sans dates ni unité"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une courbe rend une évolution temporelle visible; les axes, dates, unités et choix de classes doivent être documentés.",
+        "id": "SNT-73",
+        "theme": "visualisation",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://service-manual.ons.gov.uk/data-visualisation/chart-types/line-chart",
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Que peut-on conclure prudemment d’une corrélation entre deux variables ?",
+        "answers": [
+          "Elles évoluent ensemble dans les données observées, sans que cela prouve une causalité",
+          "La première provoque nécessairement la seconde",
+          "Les données sont représentatives de toute population",
+          "L’association reste vraie si l’unité de mesure change sans conversion"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une corrélation décrit une association observée; une causalité exige une analyse et des conditions appropriées.",
+        "id": "SNT-74",
+        "theme": "corrélation",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/correlation-and-causation"
+        ]
+      },
+      {
+        "question": "Pourquoi documenter le séparateur et l’encodage d’un fichier CSV ?",
+        "answers": [
+          "Pour permettre à un autre outil de reconstituer correctement les colonnes et les caractères",
+          "Pour garantir que chaque ligne correspond à une personne",
+          "Pour modifier les valeurs pendant l’importation sans le signaler",
+          "Pour rendre inutile la présence d’en-têtes ou de types de champs"
+        ],
+        "correctIndex": 0,
+        "explanation": "Les conventions de format influencent l’importation et l’interprétation des champs.",
+        "id": "SNT-75",
+        "theme": "CSV",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.rfc-editor.org/rfc/rfc4180.html",
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Dans une table de personnes, quelle propriété décrit le mieux une clé primaire ?",
+        "answers": [
+          "Elle identifie chaque ligne de manière unique et ne doit pas être ambiguë",
+          "Elle contient nécessairement le nom complet et l’adresse de chaque personne",
+          "Elle est toujours une valeur calculée comme la moyenne des autres champs",
+          "Elle sert principalement à classer les lignes par ordre alphabétique"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une clé primaire distingue les occurrences; elle n’est pas définie par son contenu apparent ni par l’ordre d’affichage.",
+        "id": "SNT-76",
+        "theme": "base de données",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.postgresql.org/docs/current/sql-createtable.html",
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Que fait une jointure entre deux tables selon un champ commun ?",
+        "answers": [
+          "Elle rapproche les lignes correspondant selon une relation définie",
+          "Elle supprime nécessairement toutes les lignes sans correspondance",
+          "Elle chiffre simultanément les deux tables",
+          "Elle transforme les champs numériques en champs textuels"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une jointure combine des informations selon une correspondance; le résultat dépend du type de jointure et des clés.",
+        "id": "SNT-77",
+        "theme": "requête de données",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://www.postgresql.org/docs/current/tutorial-join.html",
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Deux images représentent la même scène; laquelle a la résolution spatiale la plus élevée ?",
+        "answers": [
+          "Celle qui contient davantage de pixels pour la même étendue représentée",
+          "Celle dont le fichier porte le nom le plus long",
+          "Celle qui possède la compression la plus forte quelle que soit sa taille",
+          "Celle dont les métadonnées contiennent le plus de champs"
+        ],
+        "correctIndex": 0,
+        "explanation": "À étendue identique, une résolution spatiale plus élevée correspond à davantage de pixels; nom, compression et métadonnées ne suffisent pas à la définir.",
+        "id": "SNT-78",
+        "theme": "image numérique",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Si la fréquence d’échantillonnage est trop faible pour un signal qui varie rapidement, quel effet peut apparaître ?",
+        "answers": [
+          "Des variations peuvent être perdues et le signal reconstruit peut présenter un aliasing",
+          "Le signal est toujours reconstruit exactement avec moins de mesures",
+          "La fréquence du signal devient nécessairement constante",
+          "Les valeurs mesurées ne dépendent plus de l’instant d’observation"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un échantillonnage insuffisant peut masquer des variations et produire un aliasing; aucune formule n’est nécessaire pour identifier ce risque.",
+        "id": "SNT-79",
+        "theme": "échantillonnage",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Signal_Processing_and_Modeling/Signals_and_Systems_(Baraniuk_et_al.)/10:_Sampling_and_Reconstruction/10.02:_Sampling_Theorem"
+        ]
+      },
+      {
+        "question": "Pourquoi une même publication peut-elle être classée différemment selon l’utilisateur ?",
+        "answers": [
+          "Parce que les abonnements, interactions et règles de classement peuvent différer",
+          "Parce que chaque utilisateur reçoit nécessairement toute la plateforme dans le même ordre",
+          "Parce que le classement est toujours aléatoire sans utiliser de données",
+          "Parce que la publication change automatiquement de contenu selon le pays"
+        ],
+        "correctIndex": 0,
+        "explanation": "La personnalisation peut dépendre de données d’usage et de règles du service; le fonctionnement exact doit être documenté avec prudence.",
+        "id": "SNT-80",
+        "theme": "réseaux sociaux",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Quel exemple illustre le mieux une réduction de diversité informationnelle liée à une recommandation personnalisée ?",
+        "answers": [
+          "Après des interactions répétées avec un même type de contenu, le service recommande surtout des contenus similaires et moins de points de vue différents",
+          "Un fil chronologique affiche les publications suivies dans l’ordre de leur date, sans classement personnalisé",
+          "Un service propose volontairement des sources de thèmes et de points de vue différents pour diversifier l’affichage",
+          "Un utilisateur consulte plusieurs sources et compare leurs méthodes et conclusions"
+        ],
+        "correctIndex": 0,
+        "explanation": "Des interactions répétées peuvent orienter les recommandations vers des contenus similaires; les autres situations décrivent un fil non personnalisé, une diversification ou une comparaison active.",
+        "id": "SNT-81",
+        "theme": "bulle informationnelle",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf"
+        ]
+      },
+      {
+        "question": "Quelle action règle directement la visibilité d’un compte en ligne ?",
+        "answers": [
+          "Choisir les publics autorisés à voir certaines informations du profil et vérifier régulièrement ce réglage",
+          "Choisir de recevoir une alerte lorsqu’une nouvelle connexion est détectée, sans modifier les publics",
+          "Remplacer la photographie du profil sans changer les paramètres de visibilité",
+          "Consulter l’historique des connexions sans modifier les informations accessibles"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le réglage des publics autorisés agit directement sur la visibilité; alertes, photo et historique concernent d’autres aspects de la gestion du compte.",
+        "id": "SNT-82",
+        "theme": "identité numérique",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf",
+          "https://www.cnil.fr/fr/enfants-et-ados/reseaux-sociaux"
+        ]
+      },
+      {
+        "question": "Avant de partager une photo identifiable d’une autre personne dans un espace en ligne, quelle démarche concerne directement la vie privée ?",
+        "answers": [
+          "Vérifier que le consentement ou le cadre applicable est respecté, choisir une visibilité adaptée et accepter que la diffusion puisse être recopiée",
+          "Rendre la photo plus nette avant de la publier afin que la personne soit mieux informée",
+          "Changer le nom du fichier sans modifier les personnes visibles ni les paramètres d’accès",
+          "Choisir le format d’image le plus compressé sans vérifier qui pourra la consulter"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le consentement, le cadre applicable et le réglage de visibilité concernent directement la vie privée; renommer, netteté ou compression ne règlent pas l’autorisation ni l’accès.",
+        "id": "SNT-83",
+        "theme": "partage d’une photo identifiable",
+        "status": "Relue par Hermes; rattachement à la progression et aux supports locaux non affirmé.",
+        "sources": [
+          "https://eduscol.education.gouv.fr/sites/default/files/document/spe641annexe1063085pdf-83091.pdf",
+          "https://www.cnil.fr/fr/partage-de-photos-et-videos-de-votre-enfant-sur-les-reseaux-sociaux-quels-sont-les-risques"
+        ],
+        "prerequisites": [
+          "vie privée",
+          "consentement",
+          "visibilité"
+        ]
+      }
     ]
   }
 }

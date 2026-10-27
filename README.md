@@ -3,7 +3,7 @@
 Jeu-questionnaire pédagogique et bibliothèque de ressources SNT, en français. Application statique sans compte, conçue pour fonctionner sur GitHub Pages et s’installer comme PWA.
 
 ## Fonctions
-- Quiz à quatre choix : 6ème, 5ème, 4ème, 3ème et 2nde.
+- Quiz à quatre choix : niveaux collège cumulatifs (5e inclut la 6e; 4e inclut 6e–5e; 3e inclut 6e–5e–4e) et SNT Seconde séparée.
 - Score et bonnes réponses enregistrés dans le navigateur (`localStorage`).
 - Articles de cours avec filtres par thème.
 - Ressources téléchargeables dans `resources/`.
@@ -22,7 +22,7 @@ Le workflow `.github/workflows/pages.yml` publie le contenu du dépôt sur GitHu
 
 ## Ajouter des contenus
 - Les ressources téléchargeables vont dans `resources/` et sont référencées dans `RESOURCES` de `app.js`.
-- Les questions et explications se trouvent dans `question-bank.js` ; le JSON téléchargeable est une copie de la banque, avec `correctIndex` indexé à partir de zéro.
+- Les questions et explications se trouvent dans `question-bank.js` ; le JSON téléchargeable est une copie de la banque, avec `correctIndex` indexé à partir de zéro. Les nouveaux items peuvent aussi inclure un identifiant stable, un thème, un statut prudent, des références (`sources`) et des prérequis. Ces métadonnées ne prouvent pas qu’une notion a été enseignée localement.
 - Les leçons sont dans le tableau `LESSONS` de `app.js`.
 
-Les questions et cours intégrés sont un contenu de démonstration à relire et adapter au programme et aux ressources de l’enseignant.
+Les questions sans métadonnées de relecture restent du contenu de démonstration à faire relire par l’équipe pédagogique. Les statuts et sources associés aux nouveaux items signalent une relecture factuelle, mais ne certifient ni la progression locale ni l’adéquation aux supports de chaque classe.
