@@ -110,6 +110,906 @@
         ],
         "correctIndex": 0,
         "explanation": "Un compte rendu relie les essais aux résultats et aux améliorations."
+      },
+      {
+        "question": "Quel matériau est le plus adapté pour fabriquer une fenêtre transparente ?",
+        "answers": [
+          "Verre",
+          "Bois",
+          "Acier",
+          "Carton"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le verre laisse passer la lumière et permet de voir à travers, contrairement au bois, à l'acier ou au carton.",
+        "id": "6e-tech-01",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Pourquoi utilise-t-on souvent du cuivre dans les fils électriques ?",
+        "answers": [
+          "Il est transparent",
+          "Il conduit bien l'électricité",
+          "Il absorbe toute l'eau",
+          "Il est toujours magnétique"
+        ],
+        "correctIndex": 1,
+        "explanation": "Le cuivre est un bon conducteur électrique. Une gaine isolante protège les personnes autour du fil.",
+        "id": "6e-tech-02",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel matériau convient le mieux à une poignée de casserole qui doit limiter la transmission de chaleur ?",
+        "answers": [
+          "Aluminium",
+          "Cuivre",
+          "Bois",
+          "Acier"
+        ],
+        "correctIndex": 2,
+        "explanation": "Le bois conduit moins la chaleur que les métaux et peut servir de poignée, s'il est conçu pour cet usage.",
+        "id": "6e-tech-03",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel matériau est généralement choisi pour une canette légère et recyclable ?",
+        "answers": [
+          "Papier mouillé",
+          "Béton",
+          "Laine",
+          "Aluminium"
+        ],
+        "correctIndex": 3,
+        "explanation": "L'aluminium est léger, malléable et recyclable; il est couramment utilisé pour les canettes.",
+        "id": "6e-tech-04",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel matériau est le plus approprié pour un imperméable souple ?",
+        "answers": [
+          "Tissu enduit imperméable",
+          "Papier non traité",
+          "Laine non protégée",
+          "Plâtre"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un tissu enduit limite le passage de l'eau tout en restant souple.",
+        "id": "6e-tech-05",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Un objet doit résister aux chocs tout en restant léger. Quel choix peut convenir ?",
+        "answers": [
+          "Une feuille de papier",
+          "Un plastique adapté",
+          "Du verre ordinaire très fin",
+          "Du sucre"
+        ],
+        "correctIndex": 1,
+        "explanation": "Certains plastiques sont légers et résistants aux chocs; le choix précis dépend de l'usage.",
+        "id": "6e-tech-06",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Pourquoi protège-t-on souvent l'acier extérieur avec une peinture ?",
+        "answers": [
+          "Pour le transformer en bois",
+          "Pour le rendre transparent",
+          "Pour limiter la corrosion",
+          "Pour augmenter sa masse"
+        ],
+        "correctIndex": 2,
+        "explanation": "Une couche de peinture peut isoler l'acier de l'eau et de l'air et ainsi ralentir la corrosion.",
+        "id": "6e-tech-07",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel matériau est naturellement fibreux et souvent utilisé pour fabriquer du papier ?",
+        "answers": [
+          "Céramique",
+          "Verre",
+          "Cuivre",
+          "Bois"
+        ],
+        "correctIndex": 3,
+        "explanation": "La pâte à papier est principalement obtenue à partir de fibres végétales, notamment du bois.",
+        "id": "6e-tech-08",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel matériau convient à un bol qui doit supporter la chaleur d'un four, s'il est prévu pour la cuisson ?",
+        "answers": [
+          "Céramique adaptée au four",
+          "Plastique ordinaire",
+          "Papier",
+          "Cire"
+        ],
+        "correctIndex": 0,
+        "explanation": "Certaines céramiques résistent à la chaleur du four; il faut vérifier que le récipient est bien prévu pour cet usage.",
+        "id": "6e-tech-09",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Pourquoi choisit-on du caoutchouc pour la semelle d'une chaussure ?",
+        "answers": [
+          "Il est toujours transparent",
+          "Il peut être souple et améliorer l'adhérence",
+          "Il conduit très bien l'électricité",
+          "Il se dissout dans l'air"
+        ],
+        "correctIndex": 1,
+        "explanation": "Le caoutchouc peut offrir souplesse et adhérence, des propriétés utiles pour une semelle.",
+        "id": "6e-tech-10",
+        "theme": "materials",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans un vélo, quelle fonction assure principalement le frein ?",
+        "answers": [
+          "Gonfler les pneus",
+          "Éclairer la route",
+          "Ralentir ou arrêter le vélo",
+          "Porter le cycliste"
+        ],
+        "correctIndex": 2,
+        "explanation": "Le frein exerce une action qui ralentit la roue et permet d'arrêter le vélo.",
+        "id": "6e-tech-11",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quelle solution technique aide un parapluie à protéger de la pluie ?",
+        "answers": [
+          "Un fil électrique",
+          "Une poignée lumineuse",
+          "Une roue dentée",
+          "Une toile tendue qui dévie l'eau"
+        ],
+        "correctIndex": 3,
+        "explanation": "La toile forme une surface inclinée qui éloigne l'eau de la personne.",
+        "id": "6e-tech-12",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel élément d'un vélo permet de changer la direction de la roue avant ?",
+        "answers": [
+          "Le guidon et la direction",
+          "La sonnette seule",
+          "Le réflecteur",
+          "La béquille"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le guidon commande la direction et oriente la roue avant.",
+        "id": "6e-tech-13",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quelle est la fonction principale d'une fermeture éclair sur un sac ?",
+        "answers": [
+          "Éclairer son contenu",
+          "Ouvrir et fermer le sac",
+          "Mesurer sa masse",
+          "Le rendre étanche à coup sûr"
+        ],
+        "correctIndex": 1,
+        "explanation": "La fermeture éclair permet d'ouvrir et de refermer l'accès au sac; elle ne garantit pas forcément l'étanchéité.",
+        "id": "6e-tech-14",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Pour empêcher une porte de claquer sous l'effet du vent, quelle solution simple peut-on utiliser ?",
+        "answers": [
+          "Un thermomètre",
+          "Une ampoule",
+          "Un arrêt de porte",
+          "Une roue"
+        ],
+        "correctIndex": 2,
+        "explanation": "Un arrêt de porte bloque ou limite le mouvement de la porte.",
+        "id": "6e-tech-15",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quelle solution permet de transmettre la rotation des pédales à la roue arrière d'un vélo ?",
+        "answers": [
+          "Le garde-boue",
+          "La sonnette",
+          "La selle",
+          "La chaîne et les pignons"
+        ],
+        "correctIndex": 3,
+        "explanation": "La chaîne engrène avec les pignons et transmet le mouvement de rotation.",
+        "id": "6e-tech-16",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel est le rôle d'un isolant autour d'un câble électrique ?",
+        "answers": [
+          "Réduire le risque de contact avec le conducteur",
+          "Augmenter la vitesse du courant",
+          "Produire de la lumière",
+          "Remplacer la prise"
+        ],
+        "correctIndex": 0,
+        "explanation": "La gaine isolante empêche normalement le contact direct avec le conducteur et contribue à la sécurité.",
+        "id": "6e-tech-17",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans une lampe de poche, quel élément permet à l'utilisateur de commander l'allumage ?",
+        "answers": [
+          "Le réflecteur seul",
+          "L'interrupteur",
+          "Le boîtier seul",
+          "La lentille seule"
+        ],
+        "correctIndex": 1,
+        "explanation": "L'interrupteur ouvre ou ferme le circuit pour commander l'allumage.",
+        "id": "6e-tech-18",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quelle solution aide une voiture à être visible dans l'obscurité ?",
+        "answers": [
+          "Un tapis de sol",
+          "Une peinture intérieure",
+          "Des feux allumés",
+          "Un siège réglable"
+        ],
+        "correctIndex": 2,
+        "explanation": "Les feux produisent de la lumière et rendent le véhicule plus visible selon les conditions.",
+        "id": "6e-tech-19",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel objet répond au besoin de mesurer la température de l'air ?",
+        "answers": [
+          "Une boussole",
+          "Une règle",
+          "Une balance",
+          "Un thermomètre"
+        ],
+        "correctIndex": 3,
+        "explanation": "Un thermomètre mesure la température; une règle mesure une longueur et une balance une masse.",
+        "id": "6e-tech-20",
+        "theme": "technical functions solutions",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel actionneur transforme l'énergie électrique en mouvement de rotation ?",
+        "answers": [
+          "Un moteur électrique",
+          "Une pile",
+          "Un bouton-poussoir",
+          "Un capteur de lumière"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le moteur électrique produit un mouvement de rotation à partir d'une alimentation électrique.",
+        "id": "6e-tech-21",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans un appareil, quel composant peut produire un son lorsqu'il reçoit une commande électrique ?",
+        "answers": [
+          "Une pile",
+          "Un haut-parleur",
+          "Un interrupteur",
+          "Une résistance fixe"
+        ],
+        "correctIndex": 1,
+        "explanation": "Le haut-parleur transforme un signal électrique en vibrations qui produisent un son.",
+        "id": "6e-tech-22",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Une diode électroluminescente (DEL) utilisée comme voyant est quel type de composant ?",
+        "answers": [
+          "Une source mécanique",
+          "Un capteur de température",
+          "Un actionneur lumineux",
+          "Un engrenage"
+        ],
+        "correctIndex": 2,
+        "explanation": "La DEL émet de la lumière lorsqu'elle est alimentée dans le bon sens.",
+        "id": "6e-tech-23",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel actionneur peut ouvrir ou fermer une petite vanne sur commande ?",
+        "answers": [
+          "Un interrupteur manuel",
+          "Un microphone",
+          "Une pile usée",
+          "Un servomoteur"
+        ],
+        "correctIndex": 3,
+        "explanation": "Un servomoteur peut déplacer un axe vers une position commandée, par exemple pour actionner une vanne adaptée.",
+        "id": "6e-tech-24",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Un buzzer reçoit une alimentation électrique. Quel effet utile peut-il produire ?",
+        "answers": [
+          "Un signal sonore",
+          "Une mesure de distance",
+          "Une réserve d'énergie chimique",
+          "Une décision logique"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le buzzer est un actionneur qui transforme l'énergie électrique en son.",
+        "id": "6e-tech-25",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel composant peut faire vibrer un téléphone pour avertir son utilisateur ?",
+        "answers": [
+          "Une cellule photovoltaïque",
+          "Un moteur vibrant",
+          "Un bouton",
+          "Un capteur de température"
+        ],
+        "correctIndex": 1,
+        "explanation": "Un petit moteur vibrant transforme l'énergie électrique en mouvement oscillant perceptible.",
+        "id": "6e-tech-26",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel composant est le plus adapté pour déplacer une barrière miniature selon une commande ?",
+        "answers": [
+          "Une pile seule",
+          "Une photorésistance seule",
+          "Un servomoteur",
+          "Un câble non alimenté"
+        ],
+        "correctIndex": 2,
+        "explanation": "Un servomoteur permet de commander une position angulaire et peut déplacer une barrière miniature.",
+        "id": "6e-tech-27",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel effet un élément chauffant électrique peut-il produire ?",
+        "answers": [
+          "Une réserve de carburant",
+          "Une mesure de luminosité",
+          "Une décision de programme",
+          "De la chaleur"
+        ],
+        "correctIndex": 3,
+        "explanation": "L'élément chauffant convertit l'énergie électrique en énergie thermique.",
+        "id": "6e-tech-28",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel composant peut mettre en mouvement une roue lorsqu'il est alimenté ?",
+        "answers": [
+          "Un moteur",
+          "Un capteur",
+          "Un bouton",
+          "Un écran éteint"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le moteur fournit un mouvement mécanique qui peut être transmis à la roue.",
+        "id": "6e-tech-29",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans une alarme simple, quel composant transforme la commande électrique en avertissement lumineux ?",
+        "answers": [
+          "Un thermistor",
+          "Une DEL",
+          "Un interrupteur seul",
+          "Une résistance sans voyant"
+        ],
+        "correctIndex": 1,
+        "explanation": "Une DEL commandée peut s'allumer pour signaler une alarme.",
+        "id": "6e-tech-30",
+        "theme": "actuators",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel est le rôle général d'une carte programmable dans un objet connecté ?",
+        "answers": [
+          "Remplacer toutes les sources d'énergie",
+          "Stocker uniquement des aliments",
+          "Exécuter un programme et commander des composants",
+          "Mesurer sans aucun capteur"
+        ],
+        "correctIndex": 2,
+        "explanation": "La carte exécute des instructions et peut traiter des entrées pour commander des sorties.",
+        "id": "6e-tech-31",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Un bouton relié à une carte fournit généralement quelle information ?",
+        "answers": [
+          "Une réserve d'énergie",
+          "Une température exacte sans capteur",
+          "La puissance d'un moteur sans mesure",
+          "Un état d'entrée, appuyé ou relâché"
+        ],
+        "correctIndex": 3,
+        "explanation": "Le bouton fournit à la carte un état logique correspondant à son actionnement.",
+        "id": "6e-tech-32",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans un programme, une condition 'si la lumière est faible' sert à quoi ?",
+        "answers": [
+          "Choisir une action selon une entrée",
+          "Charger une pile automatiquement",
+          "Remplacer le capteur",
+          "Fabriquer une carte"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une condition permet au programme de choisir une action en fonction d'une information reçue.",
+        "id": "6e-tech-33",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel composant fournit à une carte une information sur la luminosité ?",
+        "answers": [
+          "Un moteur",
+          "Un capteur de lumière",
+          "Un haut-parleur",
+          "Une roue"
+        ],
+        "correctIndex": 1,
+        "explanation": "Un capteur de lumière mesure ou détecte la luminosité et transmet une information à la carte.",
+        "id": "6e-tech-34",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Après avoir lu un capteur, que peut faire une carte de commande ?",
+        "answers": [
+          "Créer de l'énergie sans source",
+          "Changer la matière du capteur",
+          "Commander une sortie selon le programme",
+          "Garantir que le capteur est exact"
+        ],
+        "correctIndex": 2,
+        "explanation": "La carte traite l'entrée selon le programme et peut alors commander un actionneur.",
+        "id": "6e-tech-35",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Selon la carte, quel moyen permet généralement de transférer un programme vers une carte programmable ?",
+        "answers": [
+          "Une ampoule",
+          "Un engrenage",
+          "Un aimant posé à distance",
+          "Une connexion adaptée, par exemple USB"
+        ],
+        "correctIndex": 3,
+        "explanation": "Une liaison compatible, souvent USB ou sans fil selon la carte, permet de transférer le programme.",
+        "id": "6e-tech-36",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans un objet automatisé, que désigne une sortie de la carte ?",
+        "answers": [
+          "Un signal envoyé vers un actionneur",
+          "Une mesure reçue du capteur",
+          "La coque de l'objet",
+          "Le programme imprimé"
+        ],
+        "correctIndex": 0,
+        "explanation": "Une sortie transmet une commande ou un signal de la carte vers un composant, par exemple un actionneur.",
+        "id": "6e-tech-37",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Pourquoi un programme peut-il répéter une suite d'instructions ?",
+        "answers": [
+          "Pour supprimer le besoin d'alimentation",
+          "Pour surveiller régulièrement une entrée et agir si nécessaire",
+          "Pour rendre un capteur inutile",
+          "Pour transformer toute entrée en son"
+        ],
+        "correctIndex": 1,
+        "explanation": "Une boucle permet de répéter les instructions, par exemple pour surveiller périodiquement un capteur.",
+        "id": "6e-tech-38",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans un système 'si le bouton est appuyé, allumer la DEL', quel composant réalise la décision programmée ?",
+        "answers": [
+          "La DEL seule",
+          "Le bouton seul",
+          "La carte de commande",
+          "Le câble seul"
+        ],
+        "correctIndex": 2,
+        "explanation": "La carte exécute le programme et commande la DEL en fonction de l'état du bouton.",
+        "id": "6e-tech-39",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Que faut-il vérifier si une carte ne commande pas correctement un moteur ?",
+        "answers": [
+          "La marque du cahier",
+          "La couleur de la table",
+          "La forme des étiquettes",
+          "Le programme, les branchements et l'alimentation"
+        ],
+        "correctIndex": 3,
+        "explanation": "Un défaut peut venir du programme, des connexions ou d'une alimentation inadaptée; on vérifie ces éléments prudemment.",
+        "id": "6e-tech-40",
+        "theme": "control boards",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans une chaîne d'énergie simplifiée, à quoi sert la fonction 'alimenter' ?",
+        "answers": [
+          "Fournir l'énergie nécessaire au système",
+          "Mesurer la température",
+          "Décider du programme",
+          "Afficher un message"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dans ce modèle simplifié, alimenter signifie fournir de l'énergie au système; l'organisation réelle varie selon l'objet.",
+        "id": "6e-tech-41",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quel rôle joue une pile dans un circuit électrique simple ?",
+        "answers": [
+          "Mesurer la luminosité",
+          "Fournir de l'énergie électrique au circuit",
+          "Commander seule le programme",
+          "Convertir l'énergie lumineuse en son"
+        ],
+        "correctIndex": 1,
+        "explanation": "La pile fournit de l'énergie électrique au circuit. Elle stocke de l'énergie sous forme chimique, puis la convertit lors de son fonctionnement.",
+        "id": "6e-tech-42",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans une lampe de poche, quelle chaîne de conversions décrit le mieux le fonctionnement ?",
+        "answers": [
+          "Son, puis énergie électrique, puis masse",
+          "Lumière, puis énergie chimique de la pile sans apport",
+          "Énergie chimique de la pile, énergie électrique, puis lumière et chaleur",
+          "Mouvement, puis eau, puis lumière"
+        ],
+        "correctIndex": 2,
+        "explanation": "La pile convertit son énergie chimique en énergie électrique; la lampe transforme ensuite une partie en lumière et une partie en chaleur.",
+        "id": "6e-tech-43",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Quelle fonction d'une chaîne d'énergie adapte ou transforme l'énergie pour produire un effet ?",
+        "answers": [
+          "Programmer",
+          "Détecter",
+          "Informer",
+          "Convertir"
+        ],
+        "correctIndex": 3,
+        "explanation": "La fonction convertir transforme une forme d'énergie en une autre, par exemple l'énergie électrique en mouvement avec un moteur.",
+        "id": "6e-tech-44",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans un ventilateur électrique, quel composant transmet le mouvement du moteur aux pales ?",
+        "answers": [
+          "L'axe mécanique",
+          "Le capteur de température",
+          "Le bouton lumineux",
+          "La prise murale"
+        ],
+        "correctIndex": 0,
+        "explanation": "L'axe relie le moteur aux pales et transmet leur mouvement de rotation.",
+        "id": "6e-tech-45",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans la chaîne d'énergie d'une voiture électrique, quel élément peut convertir l'énergie électrique en mouvement de rotation ?",
+        "answers": [
+          "Le capteur de pluie",
+          "Le moteur électrique",
+          "Le volant seul",
+          "Le rétroviseur"
+        ],
+        "correctIndex": 1,
+        "explanation": "Le moteur électrique convertit l'énergie électrique en mouvement mécanique pour entraîner le véhicule.",
+        "id": "6e-tech-46",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "À quoi sert un réducteur mécanique placé entre un moteur et une roue ?",
+        "answers": [
+          "Stocker l'électricité",
+          "Mesurer la lumière",
+          "Adapter la vitesse et le couple transmis",
+          "Choisir une instruction du programme"
+        ],
+        "correctIndex": 2,
+        "explanation": "Un réducteur modifie la relation entre vitesse de rotation et couple transmis.",
+        "id": "6e-tech-47",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Un panneau photovoltaïque reçoit la lumière du Soleil. Quelle conversion réalise-t-il principalement ?",
+        "answers": [
+          "Chaleur en mouvement sans dispositif",
+          "Énergie électrique en énergie sonore",
+          "Énergie mécanique en énergie chimique",
+          "Énergie lumineuse en énergie électrique"
+        ],
+        "correctIndex": 3,
+        "explanation": "Un panneau photovoltaïque convertit une partie de l'énergie lumineuse reçue en énergie électrique.",
+        "id": "6e-tech-48",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans un objet alimenté par le secteur, quel composant peut fournir une tension adaptée à certains circuits ?",
+        "answers": [
+          "Un adaptateur d'alimentation",
+          "Un capteur de distance",
+          "Un engrenage",
+          "Un interrupteur mécanique seul"
+        ],
+        "correctIndex": 0,
+        "explanation": "Un adaptateur peut convertir et adapter l'alimentation du secteur pour fournir une sortie compatible avec l'appareil.",
+        "id": "6e-tech-49",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
+      },
+      {
+        "question": "Dans une chaîne d'énergie, que fait la fonction 'transmettre' ?",
+        "answers": [
+          "Détecter l'environnement",
+          "Faire parvenir l'énergie ou le mouvement vers l'élément qui agit",
+          "Choisir une réponse dans un programme",
+          "Mesurer la masse de l'objet"
+        ],
+        "correctIndex": 1,
+        "explanation": "Transmettre consiste à acheminer l'énergie ou le mouvement vers la partie qui réalise l'action, par exemple avec un axe ou des engrenages.",
+        "id": "6e-tech-50",
+        "theme": "energy chains",
+        "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
+        "sources": [
+          "https://www.education.gouv.fr/bo/2026/Hebdo24/MENE2611650A",
+          "https://www.education.gouv.fr/sites/default/files/document/Annexe%20%E2%80%93%20Programme%20de%20sciences%20et%20technologie%20du%20cycle%203-365166.pdf"
+        ]
       }
     ],
     "5ème": [
