@@ -274,15 +274,15 @@ window.QUESTION_BANK = {
       ]
     },
     {
-      "q": "Pourquoi choisit-on du caoutchouc pour la semelle d'une chaussure ?",
+      "q": "Une semelle doit limiter le glissement sur un sol lisse et permettre à la chaussure de se plier pendant la marche. Quelle propriété du caoutchouc répond le mieux à ces besoins ?",
       "a": [
-        "Il est toujours transparent",
-        "Il peut être souple et améliorer l'adhérence",
-        "Il conduit très bien l'électricité",
-        "Il se dissout dans l'air"
+        "Sa rigidité empêche toute déformation de la semelle",
+        "Sa souplesse et son adhérence peuvent faciliter la marche",
+        "Sa conductivité électrique augmente le contact avec le sol",
+        "Sa transparence permet de voir les aspérités sous le pied"
       ],
       "ok": 1,
-      "why": "Le caoutchouc peut offrir souplesse et adhérence, des propriétés utiles pour une semelle.",
+      "why": "Une semelle en caoutchouc peut se déformer avec le pied et, selon sa surface et le sol, offrir une meilleure adhérence. Le résultat dépend aussi du dessin de la semelle et de son état.",
       "id": "6e-tech-10",
       "theme": "materials",
       "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
@@ -814,15 +814,15 @@ window.QUESTION_BANK = {
       ]
     },
     {
-      "q": "Que faut-il vérifier si une carte ne commande pas correctement un moteur ?",
+      "q": "Une carte exécute bien un programme de test et son voyant s'allume. Pourtant, le moteur ne tourne pas. Quelle vérification aide le mieux à localiser le défaut ?",
       "a": [
-        "La marque du cahier",
-        "La couleur de la table",
-        "La forme des étiquettes",
-        "Le programme, les branchements et l'alimentation"
+        "Vérifier que le moteur est branché sur la sortie commandée par le programme et que son alimentation convient",
+        "Remplacer le programme par un autre sans vérifier les branchements",
+        "Brancher le moteur directement sur une sortie de la carte sans vérifier ses limites électriques",
+        "Modifier la durée du programme même si la commande du moteur n'est jamais envoyée"
       ],
-      "ok": 3,
-      "why": "Un défaut peut venir du programme, des connexions ou d'une alimentation inadaptée; on vérifie ces éléments prudemment.",
+      "ok": 0,
+      "why": "Le test indique que la carte est alimentée et exécute le programme. Il faut alors comparer la sortie réellement commandée aux branchements, puis vérifier que l'alimentation est adaptée au moteur, sans dépasser les limites de la carte.",
       "id": "6e-tech-40",
       "theme": "control boards",
       "status": "Revue par Pi (01–50), vérification éditoriale; source officielle cycle 3.",
