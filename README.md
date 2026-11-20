@@ -3,7 +3,7 @@
 Jeu-questionnaire pédagogique et bibliothèque de ressources SNT, en français. Application statique sans compte, conçue pour fonctionner sur GitHub Pages et s’installer comme PWA.
 
 ## Fonctions
-- Quiz à quatre choix : niveaux collège cumulatifs (5e inclut la 6e; 4e inclut 6e–5e; 3e inclut 6e–5e–4e) et SNT Seconde séparée.
+- Quiz à quatre choix : 6e, groupe 3e–4e et SNT Seconde. Les quiz 3e et 4e reprennent les acquis communs de 6e; la banque 5e historique n'est pas proposée, car ce niveau n'est pas accueilli.
 - Score et bonnes réponses enregistrés dans le navigateur (`localStorage`).
 - Articles de cours avec filtres par thème.
 - Ressources téléchargeables dans `resources/`.
