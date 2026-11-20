@@ -2,10 +2,9 @@ const BANK=window.QUESTION_BANK;
 // Collège : chaque niveau supérieur reprend les questions des niveaux précédents.
 const QUESTIONS={
   '6ème':[...(BANK['6ème']||[])],
-  // Happiness School accueille 6e, 3e–4e et 2nde SNT. La banque 5e
-  // est conservée pour archivage, mais n'est pas proposée dans les quiz.
-  '4ème':[...(BANK['6ème']||[]),...(BANK['4ème']||[])],
-  '3ème':[...(BANK['6ème']||[]),...(BANK['4ème']||[]),...(BANK['3ème']||[])],
+  '5ème':[...(BANK['6ème']||[]),...(BANK['5ème']||[])],
+  '4ème':[...(BANK['6ème']||[]),...(BANK['5ème']||[]),...(BANK['4ème']||[])],
+  '3ème':[...(BANK['6ème']||[]),...(BANK['5ème']||[]),...(BANK['4ème']||[]),...(BANK['3ème']||[])],
   '2nde':[...(BANK['2nde']||[])]
 };
 const LESSONS=[
