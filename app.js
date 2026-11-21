@@ -19,6 +19,7 @@ const LESSONS=[
 ];
 const RESOURCES=[
 {icon:'🐱',title:'Scratch : crée tes propres projets',desc:'Programme des histoires interactives, des jeux et des animations avec Scratch.',href:'https://scratch.mit.edu/',label:'Découvrir Scratch',external:true},
+{icon:'🤖',title:'Robotics Project Hub : simuler des robots',desc:'Explore des simulateurs et tutoriels pour comprendre les capteurs, les algorithmes et la programmation de robots avec Arduino, ESP32 ou Raspberry Pi.',href:'https://roboticsprojecthub.com/',label:'Lancer les simulateurs',external:true},
 {icon:'📝',title:'Fiche mémo : Internet & Web',desc:'Une fiche de révision à garder sous la main.',href:'./resources/fiche-internet-web.md',label:'Télécharger la fiche'},
 {icon:'🧠',title:'Banque de questions SNT',desc:'Questions et explications par niveau, au format JSON.',href:'./resources/questions-snt.json',label:'Télécharger la banque'},
 {icon:'🎨',title:'Illustration planète numérique',desc:'Illustration vectorielle SVG pour les supports de cours.',href:'./assets/planet-network.svg',label:'Télécharger le SVG'},
